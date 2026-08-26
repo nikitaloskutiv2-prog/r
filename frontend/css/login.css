@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    touch-action: manipulation;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-height: 100dvh;
+
+    background: #fff;
+    transition: background 0.3s ease;
+}
+
+body.dark-theme {
+    background: #0a0a0a;
+}
+
+.auth-container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: all 0.3s ease;
+}
+
+body.dark-theme .auth-container {
+    background: #1e1e1e;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.auth-logo {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.auth-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+body.dark-theme .auth-title {
+    color: #fff;
+}
+
+.auth-subtitle {
+    font-size: 14px;
+    color: #999;
+    transition: color 0.3s ease;
+}
+
+body.dark-theme .auth-subtitle {
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+body.dark-theme label {
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.2s;
+    background: #f5f5f5;
+    color: #000;
+}
+
+body.dark-theme input {
+    background: #2a2a2a;
+    border-color: #333;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+body.dark-theme input::placeholder {
+    color: #666;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007aff;
+    background: white;
+}
+
+body.dark-theme input:focus {
+    background: #333;
+    border-color: #007aff;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #007aff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: #0051d5;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 24px;
+    color: #999;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+body.dark-theme .auth-link {
+    color: #666;
+}
+
+.auth-link a {
+    color: #007aff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.auth-link a:hover {
+    color: #0051d5;
+}
+
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 12px 14px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+body.dark-theme .error-message {
+    background: rgba(255, 69, 58, 0.1);
+    color: #ff453a;
+}
+
+.theme-toggle-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.theme-toggle-btn:hover {
+    background: #f0f0f0;
+}
+
+body.dark-theme .theme-toggle-btn:hover {
+    background: #333;
+}
+
+/* Мобильный адаптив */
+@media (max-width: 480px) {
+    .auth-container {
+        padding: 30px 20px;
+        border-radius: 16px;
+    }
+    
+    .auth-logo {
+        font-size: 40px;
+    }
+    
+    .auth-title {
+        font-size: 22px;
+    }
+    
+    input {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    
+    .submit-btn {
+        padding: 11px;
+        font-size: 15px;
+    }
+}

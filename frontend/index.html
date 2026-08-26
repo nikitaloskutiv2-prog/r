@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+  <title>Timess</title>
+</head>
+
+<body>
+<div class="app-container">
+    <!-- Боковая панель -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <button class="menu-btn" onclick="toggleMenu()">⋮</button>
+            <div id="menuDropdown" class="menu-dropdown">
+                <a href="#" class="menu-item" onclick="openSettings(event)">⚙️ Настройки</a>
+                <div class="menu-item theme-toggle">
+                    <span>🌙 Темная тема</span>
+                    <button class="toggle-switch" id="themeToggle" onclick="toggleTheme()"></button>
+                </div>
+                <a href="#" class="menu-item danger" onclick="logout(event)">🚪 Выход</a>
+            </div>
+            <div class="sidebar-title">💬 Чаты</div>
+        </div>
+        <div class="search-box">
+            <input id="searchInput" placeholder="Поиск пользователей..." type="text">
+            <div id="searchResults" class="search-results"></div>
+        </div>
+        <div class="chats-list" id="chatsList">
+            <div class="empty-sidebar-message">Загрузка чатов...</div>
+        </div>
+    </div>
+
+    <!-- Основной контент -->
+    <div class="main-content hidden" id="mainContent">
+      <div class="chat-header">
+          <div class="chat-header-left">
+              <button class="back-btn" onclick="goBack()">‹</button>
+              <div class="chat-item" style="margin:0; padding:5px;" onclick="showChatMemberProfile()">
+                  <div class="chat-avatar" id="chatAvatar" style="display:none;"></div>
+                  <div class="chat-info">
+                      <div class="chat-name" id="chatName">Выберите чат</div>
+                      <div class="chat-header-status" id="chatStatus"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="chat-header-right">
+
+            <div id="pinnedPreview" style="display:none;">
+                <div class="pinned-line"></div>
+                <div class="pinned-content">
+                    <div id="pinnedCounter">
+                        Закреплённое сообщение #1
+                    </div>
+                    <div id="pinnedText"></div>
+                </div>
+            </div>
+            <button
+                id="chatSearchBtn"
+                class="chat-search-btn"
+                style="display:none;"
+            >
+                <img src="./search.svg" alt="search">
+            </button>
+
+            <div class="chat-more-wrapper" id="chatMoreWrapper" style="display:none;">
+
+                <button
+                    id="chatMoreBtn"
+                    class="chat-more-btn"
+                    type="button"
+                >
+                    <img src="./more.svg" alt="More">
+                </button>
+
+                <div
+                    id="chatMoreMenu"
+                    class="chat-more-menu"
+                >
+
+                    <button
+                        id="deleteChatForMeBtn"
+                        class="chat-more-item"
+                        type="button"
+                    >
+                        Удалить чат у себя
+                    </button>
+
+                    <button
+                        id="deleteChatForAllBtn"
+                        class="chat-more-item danger"
+                        type="button"
+                    >
+                        Удалить чат для всех
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+      </div>
+
+      <div id="chatSearchBar" class="chat-search-bar" style="display:none;">
+          <input id="chatSearchInput" type="text" placeholder="Поиск сообщений...">
+          <span id="searchCounter">0/0</span>
+          <button id="searchPrevBtn" type="button">↑</button>
+          <button id="searchNextBtn" type="button">↓</button>
+          <button id="closeSearchBtn" type="button">✕</button>
+      </div>
+        
+        <div class="messages-container" id="messagesContainer">
+            <div class="empty-state">
+                <div class="empty-state-icon">💬</div>
+                <div class="empty-state-text">Выберите чат</div>
+                <div class="empty-state-subtext">Найдите пользователя и начните переписку</div>
+            </div>
+        </div>
+        
+        <div class="message-input-area" id="inputArea" style="display: none;">
+        
+            <div id="replyPreview" class="reply-preview" style="display:none;">
+                <div class="reply-preview-content">
+                    <div class="reply-preview-title">
+                        Ответ на сообщение
+                    </div>
+                    <div id="replyPreviewText"></div>
+                </div>
+
+                <button
+                    id="cancelReplyBtn"
+                    type="button"
+                >
+                    ✕
+                </button>
+
+            </div>
+
+            <div id="editPreview" class="edit-preview" style="display:none;">
+                <div class="edit-preview-content">
+
+                    <div class="edit-preview-title">
+                        Редактирование сообщения
+                    </div>
+
+                    <div id="editPreviewText" class="editPreviewText"></div>
+
+                </div>
+
+                <button id="cancelEditBtn" class = "cancelEditBtn" type="button">✕</button>
+
+            </div>
+            <div class="message-input-row">
+
+                
+                <div class="input-with-indicator">
+                    <input
+                        id="messageInput"
+                        placeholder="Напишите сообщение..."
+                        type="text"
+                    >
+                    <div
+                        id="recordingIndicator"
+                        class="recording-indicator"
+                        style="display:none;"
+                    ></div>
+                </div>
+
+                <button
+                    id="sendBtn"
+                    class="send-btn"
+                    onclick="handleSend()"
+                    style="display:none;"
+                >
+                    <img src="./send.svg" alt="Send">
+                </button>
+
+                <button
+                    id="voiceBtn"
+                    class="send-btn"
+                    type="button"
+                >
+                    <img src="./voice.svg" alt="Voice">
+                </button>
+
+                <button
+                    id="cancelVoiceBtn"
+                    class="send-btn"
+                    type="button"
+                    style="display:none;"
+                >
+                    <img src="./trash.svg" alt="Trash">
+                </button>
+
+                <div class="attach-wrapper">
+
+                    <button id="attachBtn">
+                        <img src="./file.svg" alt="File">
+                    </button>
+
+                    <div id="attachmentMenu" class="attachment-menu">
+
+                        <button id="pickMediaButton">
+                            <span class="menu-icon">🖼</span>
+                            <span>Фото и видео</span>
+                        </button>
+
+                        <button id="pickFileButton">
+                            <span class="menu-icon">📄</span>
+                            <span>Файл</span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <input
+                    type="file"
+                    id="mediaInput"
+                    accept="image/*,video/*"
+                    hidden
+                >
+
+                <input
+                    type="file"
+                    id="fileInput"
+                    hidden
+                >
+
+            </div>
+
+        </div>
+        <div
+            id="chatBlockedPanel"
+            class="chat-blocked"
+            style="display:none;">
+        </div>
+    </div>
+</div>
+
+<!-- Оверлей чистый, без ломающих классов -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeSettings(event)">
+  <div class="setting" id="setting" onclick="event.stopPropagation()"> 
+    <button class="close-btn" onclick="closeSettings(event)">×</button>
+    
+    <div id="avatar" class="profile-avatar-container"></div>
+    <input
+        type="file"
+        id="avatarInput"
+        accept="image/*"
+        hidden
+    >
+    <p id="ausername">username</p>
+    
+    <!-- Режим просмотра -->
+    <div id="info" class="info-view"> 
+      <div class="info-row">
+        <p id="ausernameid" class="info-value"></p>
+        <span class="info-label">ID</span>
+      </div>
+      <div class="info-row">
+        <p id="abio" class="info-value"></p>
+        <span class="info-label">Описание</span>
+      </div>
+      <div class="info-row">
+        <p id="ahappy" class="info-value"></p>
+        <span class="info-label">День рождения</span>
+      </div>
+    </div>
+    
+    <!-- Режим редактирования (скрыт по умолчанию) -->
+    <div id="infoEdit" class="info-edit" style="display: none;">
+      <div class="edit-row">
+        <label>Имя пользователя:</label>
+        <input type="text" id="editUsername" placeholder="username">
+      </div>
+      <div class="edit-row">
+        <label>ID пользователя:</label>
+        <input type="text" id="editUsernameid" placeholder="@user5">
+      </div>
+      <div class="edit-row">
+        <label>Описание:</label>
+        <textarea id="editBio" placeholder="Напишите о себе..." maxlength="150"></textarea>
+      </div>
+      <div class="edit-row">
+        <label>День рождения:</label>
+        <input type="date" id="editBirthday">
+      </div>
+      <div class="edit-buttons">
+        <button class="btn-save" onclick="saveProfile()">Сохранить</button>
+        <button class="btn-cancel" onclick="cancelEditprof()">Отмена</button>
+      </div>
+    </div>
+    
+    <!-- Кнопка редактирования -->
+    <button class="btn-edit" onclick="toggleEditMode()">Редактировать</button>
+    <button id="deleteAccountBtn" class="btn-danger" type="button" onclick="openDeleteAccountModal()">Удалить аккаунт</button>
+    <button id="blockUserBtn" class="btn-danger" style="display:none;" type="button">Заблокировать</button>
+  </div>
+</div>
+<div id="deleteAccountModal" class="delete-account-overlay">
+    <div class="delete-account-modal">
+
+        <button
+            type="button"
+            class="delete-account-close"
+            onclick="closeDeleteAccountModal()"
+        >
+            ×
+        </button>
+
+        <h2>Удалить аккаунт?</h2>
+
+        <p class="delete-account-warning">
+            Вы действительно хотите удалить свой аккаунт?
+        </p>
+
+        <p class="delete-account-info">
+            Ваш профиль будет помечен как удалённый.
+            Это действие нельзя отменить.
+        </p>
+
+        <div class="delete-account-actions">
+
+            <button
+                type="button"
+                class="delete-cancel-btn"
+                onclick="closeDeleteAccountModal()"
+            >
+                Отмена
+            </button>
+
+            <button
+                type="button"
+                class="delete-confirm-btn"
+                onclick="confirmDeleteAccount()"
+            >
+                Удалить аккаунт
+            </button>
+
+        </div>
+
+    </div>
+</div>
+
+<div id="chatDeleteModal" class="delete-modal">
+    <div class="delete-modal-content">
+        <div class="delete-modal-title" id="chatDeleteModalTitle">
+            Удалить чат?
+        </div>
+
+        <div class="delete-modal-text" id="chatDeleteModalText">
+            Вы действительно хотите удалить этот чат?
+        </div>
+
+        <div class="delete-modal-buttons">
+            <button
+                type="button"
+                class="delete-modal-cancel"
+                id="chatDeleteCancel"
+            >
+                Отмена
+            </button>
+
+            <button
+                type="button"
+                class="delete-modal-confirm"
+                id="chatDeleteConfirm"
+            >
+                Удалить
+            </button>
+        </div>
+
+    </div>
+</div>
+<div id="toast"></div>
+
+
+<div id="messageContextMenu" class="message-context-menu" style="display:none;">
+    <div class="reaction-bar">
+        <button data-emoji="❤️">❤️</button>
+        <button data-emoji="😢">😢</button>
+        <button data-emoji="👍">👍</button>
+        <button data-emoji="👎">👎</button>
+        <button data-emoji="🔥">🔥</button>
+        <button data-emoji="🥰">🥰</button>
+        <button data-emoji="👏">👏</button>
+    </div>
+    <div class="context-divider"></div>
+    <button id="replyMessageBtn">Ответить</button>
+    <button id="downloadFileBtn">Скачать файл</button>
+    <button id="copyMessageBtn">Копировать текст</button>
+    <button id="pinMessageBtn">Закрепить</button>
+    <button id="editMessageBtn">Редактировать</button>
+    <button id="deleteMessageSelfBtn">Удалить у себя</button>
+    <button id="deleteMessageAllBtn">Удалить у всех</button>
+
+</div>
+
+
+<div
+    id="attachmentPreview"
+    class="attachment-preview"
+    style="display:none;"
+>
+
+    <div class="attachment-card">
+
+        <button
+            id="cancelAttachmentBtn"
+            class="attachment-close"
+            type="button"
+        >
+            ✕
+        </button>
+
+        <img
+            id="attachmentPreviewImage"
+            style="display:none"
+        >
+
+        <video
+            id="attachmentPreviewVideo"
+            class="attachment-preview-video"
+            controls
+            muted
+            playsinline
+            style="display:none"
+        ></video>
+
+        <div class="attachment-footer">
+
+            <input
+                id="attachmentCaption"
+                class="attachment-caption"
+                placeholder="Добавить подпись..."
+                type="text"
+            >
+
+            <button
+                id="sendAttachmentBtn"
+                class="attachment-send-btn"
+                type="button"
+            >
+                <img src="./send.svg" alt="Send">
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="mediaViewer" class="media-viewer">
+
+    <div class="media-viewer-backdrop"></div>
+
+    <div class="media-viewer-content">
+
+        <button id="mediaViewerClose" class="media-viewer-close">
+            ✕
+        </button>
+
+        <img
+            id="mediaViewerImage"
+            class="media-viewer-image"
+        >
+
+        <video
+            id="mediaViewerVideo"
+            class="media-viewer-video"
+            controls
+        >
+        </video>
+
+    </div>
+
+</div>
+
+<div id="filePreview" class="file-preview-overlay">
+
+    <div class="file-preview-window">
+
+        <div class="file-preview-header">
+
+            <button id="closeFilePreview">
+                ✕
+            </button>
+
+        </div>
+
+        <div class="file-card">
+
+            <div
+                id="filePreviewIcon"
+                class="file-icon"
+            >
+                📄
+            </div>
+
+            <div class="file-info">
+
+                <div
+                    id="filePreviewName"
+                    class="file-name"
+                ></div>
+
+                <div
+                    id="filePreviewSize"
+                    class="file-size"
+                ></div>
+
+            </div>
+
+        </div>
+        <div class="bottomfileprew">
+            <input id="fileCaption" type="text" placeholder="Добавить подпись...">
+            <button id="sendFileButton" class="attachment-send-btn">
+                <img src="./send.svg" alt="Send">
+            </button>
+        </div>
+
+    </div>
+
+</div>
+<script src="js/logger.js"></script>
+<script src="js/config.js"></script>
+<script src="js/websocket.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/profile.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/notifications.js"></script>
+<script src="js/status.js"></script>
+<script src="js/search.js"></script>
+<script src="js/voice.js"></script>
+<script src="js/chat.js"></script>
+<script src="js/chat-delete.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/pin.js"></script>
+<script src="js/reactions.js"></script>
+<script src="js/edit.js"></script>
+<script src="js/reply.js"></script>
+<script src="js/messages.js"></script>
+<script src="js/context-menu.js"></script>
+<script src="js/attachment.js"></script>
+<script src="js/message-render.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
