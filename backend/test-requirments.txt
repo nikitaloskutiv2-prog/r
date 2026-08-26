@@ -1,0 +1,8 @@
+fastapi
+httpx
+pytest
+pytest-asyncio
+sqlalchemy
+python-jose
+argon2-cffi
+uvicorn

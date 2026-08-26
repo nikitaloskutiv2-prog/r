@@ -1,0 +1,1886 @@
+2026-08-24 22:50:09,997 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:50:10,017 | INFO | app.main | API routers initialized
+2026-08-24 22:50:10,017 | INFO | app.main | Static files mounted
+2026-08-24 22:50:10,018 | INFO | app.main | Application startup
+2026-08-24 22:50:10,020 | INFO | app.main | Database tables initialized
+2026-08-24 22:50:10,286 | INFO | app.main | GET /index.html -> 200 (0.033s)
+2026-08-24 22:50:10,468 | INFO | app.api.user | User status updated: user_id=1 status=online
+2026-08-24 22:50:10,468 | INFO | app.main | POST /users/me/status -> 200 (0.182s)
+2026-08-24 22:50:10,472 | INFO | app.main | GET /css/index.css -> 200 (0.001s)
+2026-08-24 22:50:10,476 | INFO | app.main | GET /search.svg -> 200 (0.001s)
+2026-08-24 22:50:10,482 | INFO | app.main | GET /more.svg -> 200 (0.001s)
+2026-08-24 22:50:10,487 | INFO | app.main | GET /send.svg -> 200 (0.001s)
+2026-08-24 22:50:10,493 | INFO | app.main | GET /voice.svg -> 200 (0.001s)
+2026-08-24 22:50:10,502 | INFO | app.main | GET /trash.svg -> 200 (0.001s)
+2026-08-24 22:50:10,510 | INFO | app.main | GET /js/logger.js -> 200 (0.001s)
+2026-08-24 22:50:10,514 | INFO | app.main | GET /js/config.js -> 200 (0.001s)
+2026-08-24 22:50:10,520 | INFO | app.main | GET /js/websocket.js -> 200 (0.001s)
+2026-08-24 22:50:10,527 | INFO | app.main | GET /js/ui.js -> 200 (0.001s)
+2026-08-24 22:50:10,529 | INFO | app.main | GET /js/settings.js -> 200 (0.001s)
+2026-08-24 22:50:10,532 | INFO | app.main | GET /js/profile.js -> 200 (0.001s)
+2026-08-24 22:50:10,534 | INFO | app.main | GET /js/auth.js -> 200 (0.001s)
+2026-08-24 22:50:10,541 | INFO | app.main | GET /js/notifications.js -> 200 (0.001s)
+2026-08-24 22:50:10,542 | INFO | app.main | GET /js/status.js -> 200 (0.001s)
+2026-08-24 22:50:10,551 | INFO | app.main | GET /js/search.js -> 200 (0.001s)
+2026-08-24 22:50:10,552 | INFO | app.main | GET /js/voice.js -> 200 (0.001s)
+2026-08-24 22:50:10,556 | INFO | app.main | GET /js/chat.js -> 200 (0.001s)
+2026-08-24 22:50:10,560 | INFO | app.api.user | User status updated: user_id=1 status=away
+2026-08-24 22:50:10,560 | INFO | app.main | POST /users/me/status -> 200 (0.243s)
+2026-08-24 22:50:10,562 | INFO | app.main | GET /js/chat-delete.js -> 200 (0.001s)
+2026-08-24 22:50:10,565 | INFO | app.main | GET /js/sidebar.js -> 200 (0.001s)
+2026-08-24 22:50:10,567 | INFO | app.main | GET /js/pin.js -> 200 (0.001s)
+2026-08-24 22:50:10,570 | INFO | app.main | GET /js/reactions.js -> 200 (0.001s)
+2026-08-24 22:50:10,578 | INFO | app.main | GET /js/edit.js -> 200 (0.001s)
+2026-08-24 22:50:10,581 | INFO | app.main | GET /js/reply.js -> 200 (0.001s)
+2026-08-24 22:50:10,583 | INFO | app.main | GET /js/messages.js -> 200 (0.001s)
+2026-08-24 22:50:10,589 | INFO | app.main | GET /js/context-menu.js -> 200 (0.001s)
+2026-08-24 22:50:10,591 | INFO | app.main | GET /js/attachment.js -> 200 (0.001s)
+2026-08-24 22:50:10,592 | INFO | app.main | GET /js/message-render.js -> 200 (0.001s)
+2026-08-24 22:50:10,596 | INFO | app.main | GET /js/index.js -> 200 (0.001s)
+2026-08-24 22:50:10,601 | INFO | app.main | GET /file.svg -> 200 (0.001s)
+2026-08-24 22:50:10,682 | INFO | app.main | GET /auth/me -> 200 (0.002s)
+2026-08-24 22:50:10,806 | INFO | app.main | GET /static/favicon.ico -> 200 (0.005s)
+2026-08-24 22:50:10,820 | INFO | app.main | GET /chats/ -> 200 (0.021s)
+2026-08-24 22:50:10,842 | INFO | app.main | GET /users/2/block-status -> 200 (0.003s)
+2026-08-24 22:50:10,852 | INFO | app.services.message_service | Unread counts loaded: user_id=1 chat_count=0
+2026-08-24 22:50:10,853 | INFO | app.main | GET /messages/unread/counts -> 200 (0.005s)
+2026-08-24 22:50:10,867 | INFO | app.main | GET /users/2/status -> 200 (0.003s)
+2026-08-24 22:50:11,183 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=1 connections=1
+2026-08-24 22:50:11,184 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=1
+2026-08-24 22:50:11,303 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=1 status=online members=1
+2026-08-24 22:50:12,512 | INFO | app.api.user | User status updated: user_id=1 status=offline
+2026-08-24 22:50:12,514 | INFO | app.main | POST /users/me/status -> 200 (0.099s)
+2026-08-24 22:50:12,526 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=1 code=1005
+2026-08-24 22:50:12,526 | INFO | app.websocket.chat_ws | User went offline: user_id=1
+2026-08-24 22:50:12,527 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=1 became_offline=True
+2026-08-24 22:50:12,594 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=1 status=offline members=1
+2026-08-24 22:50:12,595 | INFO | app.main | GET /login.html -> 304 (0.001s)
+2026-08-24 22:50:12,637 | INFO | app.main | GET /js/login.js -> 200 (0.001s)
+2026-08-24 22:50:12,712 | INFO | app.api.user | User status updated: user_id=1 status=away
+2026-08-24 22:50:12,713 | INFO | app.main | POST /users/me/status -> 200 (0.086s)
+2026-08-24 22:50:14,289 | INFO | app.main | GET /register.html -> 200 (0.001s)
+2026-08-24 22:50:14,318 | INFO | app.main | GET /css/register.css -> 200 (0.001s)
+2026-08-24 22:50:14,319 | INFO | app.main | GET /js/register.js -> 200 (0.001s)
+2026-08-24 22:50:19,243 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:50:19,243 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:50:19,244 | INFO | app.main | POST /auth/login -> 401 (0.059s)
+2026-08-24 22:50:21,197 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:50:21,197 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:50:21,198 | INFO | app.main | POST /auth/login -> 401 (0.05s)
+2026-08-24 22:50:23,307 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:50:23,307 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:50:23,308 | INFO | app.main | POST /auth/login -> 401 (0.052s)
+2026-08-24 22:50:24,168 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:50:24,168 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:50:24,169 | INFO | app.main | POST /auth/login -> 401 (0.06s)
+2026-08-24 22:50:24,671 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:50:24,672 | WARNING | app.services.rate_limit_service | Login brute-force protection triggered: ip=127.0.0.1 attempts=5 blocked_until=2026-08-24 21:05:24.672159
+2026-08-24 22:50:24,672 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:50:24,672 | INFO | app.main | POST /auth/login -> 401 (0.062s)
+2026-08-24 22:50:25,304 | WARNING | app.services.rate_limit_service | Blocked login attempt: ip=127.0.0.1 blocked_until=2026-08-24 21:05:24.672159
+2026-08-24 22:50:25,305 | WARNING | app.api.auth | Login rate limit exceeded: ip=127.0.0.1 login=Nikita123_543
+2026-08-24 22:50:25,305 | INFO | app.main | POST /auth/login -> 429 (0.001s)
+2026-08-24 22:51:02,532 | INFO | app.main | Application shutdown
+2026-08-24 22:51:03,476 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:51:03,496 | INFO | app.main | API routers initialized
+2026-08-24 22:51:03,497 | INFO | app.main | Static files mounted
+2026-08-24 22:51:03,497 | INFO | app.main | Application startup
+2026-08-24 22:51:03,500 | INFO | app.main | Database tables initialized
+2026-08-24 22:51:05,342 | INFO | app.main | Application shutdown
+2026-08-24 22:51:06,207 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:51:06,226 | INFO | app.main | API routers initialized
+2026-08-24 22:51:06,226 | INFO | app.main | Static files mounted
+2026-08-24 22:51:06,227 | INFO | app.main | Application startup
+2026-08-24 22:51:06,229 | INFO | app.main | Database tables initialized
+2026-08-24 22:51:32,361 | INFO | app.main | Application shutdown
+2026-08-24 22:51:33,233 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:51:33,252 | INFO | app.main | API routers initialized
+2026-08-24 22:51:33,253 | INFO | app.main | Static files mounted
+2026-08-24 22:51:33,254 | INFO | app.main | Application startup
+2026-08-24 22:51:33,255 | INFO | app.main | Database tables initialized
+2026-08-24 22:51:54,562 | INFO | app.main | Application shutdown
+2026-08-24 22:51:55,430 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:51:55,449 | INFO | app.main | API routers initialized
+2026-08-24 22:51:55,450 | INFO | app.main | Static files mounted
+2026-08-24 22:51:55,450 | INFO | app.main | Application startup
+2026-08-24 22:51:55,452 | INFO | app.main | Database tables initialized
+2026-08-24 22:52:19,879 | INFO | app.main | GET /login.html -> 200 (0.031s)
+2026-08-24 22:52:19,898 | INFO | app.main | GET /css/login.css -> 200 (0.001s)
+2026-08-24 22:52:19,907 | INFO | app.main | GET /js/logger.js -> 200 (0.001s)
+2026-08-24 22:52:19,926 | INFO | app.main | GET /js/config.js -> 200 (0.001s)
+2026-08-24 22:52:19,927 | INFO | app.main | GET /js/login.js -> 200 (0.002s)
+2026-08-24 22:52:19,967 | INFO | app.main | GET /static/favicon.ico -> 200 (0.001s)
+2026-08-24 22:52:21,075 | INFO | app.services.auth_service | User authenticated successfully: user_id=1
+2026-08-24 22:52:21,079 | INFO | app.api.auth | User logged in: user_id=1 username=Nikita
+2026-08-24 22:52:21,080 | INFO | app.main | POST /auth/login -> 200 (0.073s)
+2026-08-24 22:52:21,434 | INFO | app.main | GET /auth/me -> 200 (0.003s)
+2026-08-24 22:52:21,546 | INFO | app.main | GET /chats/ -> 200 (0.011s)
+2026-08-24 22:52:21,567 | INFO | app.main | GET /users/2/block-status -> 200 (0.004s)
+2026-08-24 22:52:21,575 | INFO | app.services.message_service | Unread counts loaded: user_id=1 chat_count=0
+2026-08-24 22:52:21,575 | INFO | app.main | GET /messages/unread/counts -> 200 (0.004s)
+2026-08-24 22:52:21,591 | INFO | app.main | GET /users/2/status -> 200 (0.004s)
+2026-08-24 22:52:21,900 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=1 connections=1
+2026-08-24 22:52:21,900 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=1
+2026-08-24 22:52:22,004 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=1 status=online members=1
+2026-08-24 22:52:23,932 | INFO | app.api.user | User status updated: user_id=1 status=offline
+2026-08-24 22:52:23,934 | INFO | app.main | POST /users/me/status -> 200 (0.101s)
+2026-08-24 22:52:23,945 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=1 code=1005
+2026-08-24 22:52:23,946 | INFO | app.websocket.chat_ws | User went offline: user_id=1
+2026-08-24 22:52:23,946 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=1 became_offline=True
+2026-08-24 22:52:24,022 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=1 status=offline members=1
+2026-08-24 22:52:24,106 | INFO | app.api.user | User status updated: user_id=1 status=away
+2026-08-24 22:52:24,107 | INFO | app.main | POST /users/me/status -> 200 (0.084s)
+2026-08-24 22:52:26,421 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:52:26,421 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:52:26,422 | INFO | app.main | POST /auth/login -> 401 (0.055s)
+2026-08-24 22:52:26,985 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:52:26,986 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:52:26,986 | INFO | app.main | POST /auth/login -> 401 (0.057s)
+2026-08-24 22:52:27,690 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:52:27,690 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:52:27,691 | INFO | app.main | POST /auth/login -> 401 (0.063s)
+2026-08-24 22:52:28,174 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:52:28,174 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:52:28,175 | INFO | app.main | POST /auth/login -> 401 (0.053s)
+2026-08-24 22:52:28,586 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:52:28,586 | WARNING | app.services.rate_limit_service | Login brute-force protection triggered: ip=127.0.0.1 attempts=5 blocked_until=2026-08-24 21:07:28.586205
+2026-08-24 22:52:28,586 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:52:28,586 | INFO | app.main | POST /auth/login -> 401 (0.054s)
+2026-08-24 22:52:29,078 | WARNING | app.services.rate_limit_service | Blocked login attempt: ip=127.0.0.1 blocked_until=2026-08-24 21:07:28.586205
+2026-08-24 22:52:29,078 | WARNING | app.api.auth | Login rate limit exceeded: ip=127.0.0.1 login=Nikita123_543
+2026-08-24 22:52:29,078 | INFO | app.main | POST /auth/login -> 429 (0.001s)
+2026-08-24 22:52:32,699 | WARNING | app.services.rate_limit_service | Blocked login attempt: ip=127.0.0.1 blocked_until=2026-08-24 21:07:28.586205
+2026-08-24 22:52:32,699 | WARNING | app.api.auth | Login rate limit exceeded: ip=127.0.0.1 login=Nikita123_543
+2026-08-24 22:52:32,699 | INFO | app.main | POST /auth/login -> 429 (0.001s)
+2026-08-24 22:52:35,188 | INFO | app.main | GET /login.html -> 200 (0.001s)
+2026-08-24 22:52:35,207 | INFO | app.main | GET /css/login.css -> 200 (0.001s)
+2026-08-24 22:52:35,216 | INFO | app.main | GET /js/logger.js -> 200 (0.001s)
+2026-08-24 22:52:35,236 | INFO | app.main | GET /js/config.js -> 200 (0.001s)
+2026-08-24 22:52:35,237 | INFO | app.main | GET /js/login.js -> 200 (0.002s)
+2026-08-24 22:52:35,275 | INFO | app.main | GET /static/favicon.ico -> 200 (0.001s)
+2026-08-24 22:52:36,676 | WARNING | app.services.rate_limit_service | Blocked login attempt: ip=127.0.0.1 blocked_until=2026-08-24 21:07:28.586205
+2026-08-24 22:52:36,676 | WARNING | app.api.auth | Login rate limit exceeded: ip=127.0.0.1 login=Nikita123_543
+2026-08-24 22:52:36,676 | INFO | app.main | POST /auth/login -> 429 (0.001s)
+2026-08-24 22:52:40,784 | INFO | app.main | GET /login.html -> 200 (0.001s)
+2026-08-24 22:52:40,815 | INFO | app.main | GET /css/login.css -> 200 (0.001s)
+2026-08-24 22:52:40,823 | INFO | app.main | GET /js/logger.js -> 200 (0.001s)
+2026-08-24 22:52:40,829 | INFO | app.main | GET /js/config.js -> 200 (0.001s)
+2026-08-24 22:52:40,839 | INFO | app.main | GET /js/login.js -> 200 (0.001s)
+2026-08-24 22:52:40,879 | INFO | app.main | GET /static/favicon.ico -> 200 (0.001s)
+2026-08-24 22:52:41,574 | WARNING | app.services.rate_limit_service | Blocked login attempt: ip=127.0.0.1 blocked_until=2026-08-24 21:07:28.586205
+2026-08-24 22:52:41,574 | WARNING | app.api.auth | Login rate limit exceeded: ip=127.0.0.1 login=Nikita123_543
+2026-08-24 22:52:41,574 | INFO | app.main | POST /auth/login -> 429 (0.001s)
+2026-08-24 22:52:45,528 | INFO | app.main | GET /login.html -> 200 (0.001s)
+2026-08-24 22:52:45,548 | INFO | app.main | GET /css/login.css -> 200 (0.001s)
+2026-08-24 22:52:45,560 | INFO | app.main | GET /js/logger.js -> 200 (0.001s)
+2026-08-24 22:52:45,576 | INFO | app.main | GET /js/config.js -> 200 (0.001s)
+2026-08-24 22:52:45,578 | INFO | app.main | GET /js/login.js -> 200 (0.001s)
+2026-08-24 22:52:45,619 | INFO | app.main | GET /static/favicon.ico -> 200 (0.001s)
+2026-08-24 22:52:46,242 | WARNING | app.services.rate_limit_service | Blocked login attempt: ip=127.0.0.1 blocked_until=2026-08-24 21:07:28.586205
+2026-08-24 22:52:46,242 | WARNING | app.api.auth | Login rate limit exceeded: ip=127.0.0.1 login=Nikita123_543
+2026-08-24 22:52:46,242 | INFO | app.main | POST /auth/login -> 429 (0.001s)
+2026-08-24 22:52:52,719 | INFO | app.main | GET /login.html -> 200 (0.003s)
+2026-08-24 22:52:52,754 | INFO | app.main | GET /css/login.css -> 200 (0.001s)
+2026-08-24 22:52:52,765 | INFO | app.main | GET /js/logger.js -> 200 (0.001s)
+2026-08-24 22:52:52,780 | INFO | app.main | GET /js/config.js -> 200 (0.001s)
+2026-08-24 22:52:52,784 | INFO | app.main | GET /js/login.js -> 200 (0.001s)
+2026-08-24 22:52:52,823 | INFO | app.main | GET /static/favicon.ico -> 200 (0.001s)
+2026-08-24 22:52:55,660 | WARNING | app.services.rate_limit_service | Blocked login attempt: ip=127.0.0.1 blocked_until=2026-08-24 21:07:28.586205
+2026-08-24 22:52:55,660 | WARNING | app.api.auth | Login rate limit exceeded: ip=127.0.0.1 login=Nikita123_543
+2026-08-24 22:52:55,661 | INFO | app.main | POST /auth/login -> 429 (0.004s)
+2026-08-24 22:52:55,667 | WARNING | app.services.rate_limit_service | Blocked login attempt: ip=127.0.0.1 blocked_until=2026-08-24 21:07:28.586205
+2026-08-24 22:52:55,667 | WARNING | app.api.auth | Login rate limit exceeded: ip=127.0.0.1 login=Nikita123_543
+2026-08-24 22:52:55,669 | INFO | app.main | POST /auth/login -> 429 (0.004s)
+2026-08-24 22:53:27,978 | INFO | app.main | Application shutdown
+2026-08-24 22:53:28,869 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:28,889 | INFO | app.main | API routers initialized
+2026-08-24 22:53:28,889 | INFO | app.main | Static files mounted
+2026-08-24 22:53:28,890 | INFO | app.main | Application startup
+2026-08-24 22:53:28,892 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:30,725 | INFO | app.main | Application shutdown
+2026-08-24 22:53:31,630 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:31,649 | INFO | app.main | API routers initialized
+2026-08-24 22:53:31,650 | INFO | app.main | Static files mounted
+2026-08-24 22:53:31,650 | INFO | app.main | Application startup
+2026-08-24 22:53:31,652 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:33,489 | INFO | app.main | Application shutdown
+2026-08-24 22:53:34,422 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:34,442 | INFO | app.main | API routers initialized
+2026-08-24 22:53:34,443 | INFO | app.main | Static files mounted
+2026-08-24 22:53:34,443 | INFO | app.main | Application startup
+2026-08-24 22:53:34,445 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:35,635 | INFO | app.main | Application shutdown
+2026-08-24 22:53:36,521 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:36,541 | INFO | app.main | API routers initialized
+2026-08-24 22:53:36,542 | INFO | app.main | Static files mounted
+2026-08-24 22:53:36,542 | INFO | app.main | Application startup
+2026-08-24 22:53:36,544 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:38,383 | INFO | app.main | Application shutdown
+2026-08-24 22:53:39,278 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:39,298 | INFO | app.main | API routers initialized
+2026-08-24 22:53:39,299 | INFO | app.main | Static files mounted
+2026-08-24 22:53:39,299 | INFO | app.main | Application startup
+2026-08-24 22:53:39,301 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:40,915 | INFO | app.main | Application shutdown
+2026-08-24 22:53:41,788 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:41,808 | INFO | app.main | API routers initialized
+2026-08-24 22:53:41,808 | INFO | app.main | Static files mounted
+2026-08-24 22:53:41,809 | INFO | app.main | Application startup
+2026-08-24 22:53:41,810 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:47,626 | INFO | app.main | Application shutdown
+2026-08-24 22:53:48,506 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:48,526 | INFO | app.main | API routers initialized
+2026-08-24 22:53:48,526 | INFO | app.main | Static files mounted
+2026-08-24 22:53:48,527 | INFO | app.main | Application startup
+2026-08-24 22:53:48,528 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:50,789 | INFO | app.main | Application shutdown
+2026-08-24 22:53:51,700 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:51,719 | INFO | app.main | API routers initialized
+2026-08-24 22:53:51,720 | INFO | app.main | Static files mounted
+2026-08-24 22:53:51,721 | INFO | app.main | Application startup
+2026-08-24 22:53:51,723 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:52,688 | INFO | app.main | Application shutdown
+2026-08-24 22:53:53,565 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:53,585 | INFO | app.main | API routers initialized
+2026-08-24 22:53:53,585 | INFO | app.main | Static files mounted
+2026-08-24 22:53:53,586 | INFO | app.main | Application startup
+2026-08-24 22:53:53,588 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:56,708 | INFO | app.main | Application shutdown
+2026-08-24 22:53:57,592 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:53:57,611 | INFO | app.main | API routers initialized
+2026-08-24 22:53:57,612 | INFO | app.main | Static files mounted
+2026-08-24 22:53:57,613 | INFO | app.main | Application startup
+2026-08-24 22:53:57,614 | INFO | app.main | Database tables initialized
+2026-08-24 22:53:59,780 | INFO | app.main | Application shutdown
+2026-08-24 22:54:00,674 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:00,693 | INFO | app.main | API routers initialized
+2026-08-24 22:54:00,694 | INFO | app.main | Static files mounted
+2026-08-24 22:54:00,695 | INFO | app.main | Application startup
+2026-08-24 22:54:00,696 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:01,125 | INFO | app.main | Application shutdown
+2026-08-24 22:54:02,010 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:02,029 | INFO | app.main | API routers initialized
+2026-08-24 22:54:02,030 | INFO | app.main | Static files mounted
+2026-08-24 22:54:02,031 | INFO | app.main | Application startup
+2026-08-24 22:54:02,032 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:04,842 | INFO | app.main | Application shutdown
+2026-08-24 22:54:05,725 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:05,745 | INFO | app.main | API routers initialized
+2026-08-24 22:54:05,745 | INFO | app.main | Static files mounted
+2026-08-24 22:54:05,746 | INFO | app.main | Application startup
+2026-08-24 22:54:05,748 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:07,897 | INFO | app.main | Application shutdown
+2026-08-24 22:54:08,771 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:08,791 | INFO | app.main | API routers initialized
+2026-08-24 22:54:08,791 | INFO | app.main | Static files mounted
+2026-08-24 22:54:08,792 | INFO | app.main | Application startup
+2026-08-24 22:54:08,793 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:10,953 | INFO | app.main | Application shutdown
+2026-08-24 22:54:11,839 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:11,858 | INFO | app.main | API routers initialized
+2026-08-24 22:54:11,859 | INFO | app.main | Static files mounted
+2026-08-24 22:54:11,859 | INFO | app.main | Application startup
+2026-08-24 22:54:11,861 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:14,559 | INFO | app.main | Application shutdown
+2026-08-24 22:54:15,445 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:15,465 | INFO | app.main | API routers initialized
+2026-08-24 22:54:15,466 | INFO | app.main | Static files mounted
+2026-08-24 22:54:15,466 | INFO | app.main | Application startup
+2026-08-24 22:54:15,468 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:17,089 | INFO | app.main | Application shutdown
+2026-08-24 22:54:17,965 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:17,985 | INFO | app.main | API routers initialized
+2026-08-24 22:54:17,985 | INFO | app.main | Static files mounted
+2026-08-24 22:54:17,986 | INFO | app.main | Application startup
+2026-08-24 22:54:17,987 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:19,390 | INFO | app.main | Application shutdown
+2026-08-24 22:54:20,276 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:20,295 | INFO | app.main | API routers initialized
+2026-08-24 22:54:20,296 | INFO | app.main | Static files mounted
+2026-08-24 22:54:20,297 | INFO | app.main | Application startup
+2026-08-24 22:54:20,298 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:22,244 | INFO | app.main | Application shutdown
+2026-08-24 22:54:23,152 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:23,171 | INFO | app.main | API routers initialized
+2026-08-24 22:54:23,172 | INFO | app.main | Static files mounted
+2026-08-24 22:54:23,173 | INFO | app.main | Application startup
+2026-08-24 22:54:23,175 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:24,033 | INFO | app.main | Application shutdown
+2026-08-24 22:54:24,921 | INFO | app.main | FastAPI application initialized
+2026-08-24 22:54:24,940 | INFO | app.main | API routers initialized
+2026-08-24 22:54:24,941 | INFO | app.main | Static files mounted
+2026-08-24 22:54:24,941 | INFO | app.main | Application startup
+2026-08-24 22:54:24,943 | INFO | app.main | Database tables initialized
+2026-08-24 22:54:25,853 | INFO | app.services.auth_service | User authenticated successfully: user_id=1
+2026-08-24 22:54:25,857 | INFO | app.api.auth | User logged in: user_id=1 username=Nikita
+2026-08-24 22:54:25,858 | INFO | app.main | POST /auth/login -> 200 (0.076s)
+2026-08-24 22:54:26,228 | INFO | app.main | GET /auth/me -> 200 (0.003s)
+2026-08-24 22:54:26,337 | INFO | app.main | GET /chats/ -> 200 (0.011s)
+2026-08-24 22:54:26,357 | INFO | app.main | GET /users/2/block-status -> 200 (0.004s)
+2026-08-24 22:54:26,366 | INFO | app.services.message_service | Unread counts loaded: user_id=1 chat_count=0
+2026-08-24 22:54:26,366 | INFO | app.main | GET /messages/unread/counts -> 200 (0.004s)
+2026-08-24 22:54:26,380 | INFO | app.main | GET /users/2/status -> 200 (0.003s)
+2026-08-24 22:54:26,697 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=1 connections=1
+2026-08-24 22:54:26,697 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=1
+2026-08-24 22:54:26,818 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=1 status=online members=1
+2026-08-24 22:54:28,619 | INFO | app.api.user | User status updated: user_id=1 status=offline
+2026-08-24 22:54:28,621 | INFO | app.main | POST /users/me/status -> 200 (0.096s)
+2026-08-24 22:54:28,632 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=1 code=1005
+2026-08-24 22:54:28,632 | INFO | app.websocket.chat_ws | User went offline: user_id=1
+2026-08-24 22:54:28,632 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=1 became_offline=True
+2026-08-24 22:54:28,710 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=1 status=offline members=1
+2026-08-24 22:54:28,746 | INFO | app.main | GET /js/login.js -> 304 (0.034s)
+2026-08-24 22:54:28,825 | INFO | app.api.user | User status updated: user_id=1 status=away
+2026-08-24 22:54:28,826 | INFO | app.main | POST /users/me/status -> 200 (0.115s)
+2026-08-24 22:54:30,449 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:54:30,449 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:54:30,450 | INFO | app.main | POST /auth/login -> 401 (0.06s)
+2026-08-24 22:54:31,058 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:54:31,058 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:54:31,058 | INFO | app.main | POST /auth/login -> 401 (0.059s)
+2026-08-24 22:54:31,636 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:54:31,636 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:54:31,637 | INFO | app.main | POST /auth/login -> 401 (0.055s)
+2026-08-24 22:54:32,154 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:54:32,155 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:54:32,155 | INFO | app.main | POST /auth/login -> 401 (0.061s)
+2026-08-24 22:54:32,532 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-24 22:54:32,532 | WARNING | app.services.rate_limit_service | Login brute-force protection triggered: ip=127.0.0.1 attempts=5 blocked_until=2026-08-24 21:09:32.532626
+2026-08-24 22:54:32,532 | WARNING | app.api.auth | Login failed: login=Nikita123_543
+2026-08-24 22:54:32,533 | INFO | app.main | POST /auth/login -> 401 (0.063s)
+2026-08-24 22:54:32,927 | WARNING | app.services.rate_limit_service | Blocked login attempt: ip=127.0.0.1 blocked_until=2026-08-24 21:09:32.532626
+2026-08-24 22:54:32,928 | WARNING | app.api.auth | Login rate limit exceeded: ip=127.0.0.1 login=Nikita123_543
+2026-08-24 22:54:32,928 | INFO | app.main | POST /auth/login -> 429 (0.001s)
+2026-08-24 22:57:28,447 | INFO | app.main | GET /docs -> 200 (0.0s)
+2026-08-24 22:57:29,097 | INFO | app.main | GET /openapi.json -> 200 (0.062s)
+2026-08-24 23:16:37,196 | INFO | app.services.rate_limit_service | Login block expired: ip=127.0.0.1
+2026-08-24 23:16:37,261 | INFO | app.services.auth_service | User authenticated successfully: user_id=1
+2026-08-24 23:16:37,261 | INFO | app.api.auth | User logged in: user_id=1 username=Nikita
+2026-08-24 23:16:37,262 | INFO | app.main | POST /auth/login -> 200 (0.07s)
+2026-08-24 23:16:37,638 | INFO | app.main | GET /auth/me -> 200 (0.001s)
+2026-08-24 23:16:37,749 | INFO | app.main | GET /chats/ -> 200 (0.005s)
+2026-08-24 23:16:37,768 | INFO | app.main | GET /users/2/block-status -> 200 (0.002s)
+2026-08-24 23:16:37,776 | INFO | app.services.message_service | Unread counts loaded: user_id=1 chat_count=0
+2026-08-24 23:16:37,777 | INFO | app.main | GET /messages/unread/counts -> 200 (0.002s)
+2026-08-24 23:16:37,791 | INFO | app.main | GET /users/2/status -> 200 (0.002s)
+2026-08-24 23:16:38,105 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=1 connections=1
+2026-08-24 23:16:38,105 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=1
+2026-08-24 23:16:38,175 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=1 status=online members=1
+2026-08-24 23:16:39,606 | INFO | app.api.user | User status updated: user_id=1 status=away
+2026-08-24 23:16:39,607 | INFO | app.main | POST /users/me/status -> 200 (0.099s)
+2026-08-24 23:16:39,613 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=1 status=away members=1
+2026-08-24 23:17:01,247 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=1 code=1001
+2026-08-24 23:17:01,248 | INFO | app.websocket.chat_ws | User went offline: user_id=1
+2026-08-24 23:17:01,248 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=1 became_offline=True
+2026-08-24 23:17:01,356 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=1 status=offline members=1
+2026-08-24 23:17:03,617 | INFO | app.main | Application shutdown
+2026-08-26 13:25:20,408 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:25:20,452 | INFO | app.main | API routers initialized
+2026-08-26 13:25:20,452 | INFO | app.main | Static files mounted
+2026-08-26 13:26:38,250 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:26:38,268 | INFO | app.main | API routers initialized
+2026-08-26 13:26:38,269 | INFO | app.main | Static files mounted
+2026-08-26 13:27:46,945 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:27:46,964 | INFO | app.main | API routers initialized
+2026-08-26 13:27:46,964 | INFO | app.main | Static files mounted
+2026-08-26 13:29:17,776 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:29:17,796 | INFO | app.main | API routers initialized
+2026-08-26 13:29:17,796 | INFO | app.main | Static files mounted
+2026-08-26 13:34:06,784 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:34:06,803 | INFO | app.main | API routers initialized
+2026-08-26 13:34:06,804 | INFO | app.main | Static files mounted
+2026-08-26 13:34:15,503 | INFO | app.main | Application startup
+2026-08-26 13:34:15,505 | INFO | app.main | Database tables initialized
+2026-08-26 13:34:16,045 | INFO | app.services.auth_service | User registered successfully: user_id=1 login=testuser
+2026-08-26 13:34:16,063 | INFO | app.services.rate_limit_service | Registration attempt recorded: ip=testclient attempts_last_hour=1
+2026-08-26 13:34:16,063 | INFO | app.api.auth | User registered: user_id=1 username=Test User
+2026-08-26 13:34:16,124 | INFO | app.main | POST /auth/register -> 200 (0.618s)
+2026-08-26 13:34:16,125 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:34:16,668 | INFO | app.services.auth_service | User registered successfully: user_id=2 login=dupuser
+2026-08-26 13:34:16,669 | INFO | app.services.rate_limit_service | Registration attempt recorded: ip=testclient attempts_last_hour=2
+2026-08-26 13:34:16,669 | INFO | app.api.auth | User registered: user_id=2 username=Dup User
+2026-08-26 13:34:16,671 | INFO | app.main | POST /auth/register -> 200 (0.44s)
+2026-08-26 13:34:16,672 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:34:16,682 | INFO | app.main | POST /auth/register -> 422 (0.003s)
+2026-08-26 13:34:16,682 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 422 Unprocessable Entity"
+2026-08-26 13:34:17,093 | INFO | app.services.auth_service | User registered successfully: user_id=3 login=fav_user
+2026-08-26 13:34:17,095 | INFO | app.services.rate_limit_service | Registration attempt recorded: ip=testclient attempts_last_hour=3
+2026-08-26 13:34:17,095 | INFO | app.api.auth | User registered: user_id=3 username=Fav User
+2026-08-26 13:34:17,097 | INFO | app.main | POST /auth/register -> 200 (0.411s)
+2026-08-26 13:34:17,100 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:34:17,107 | INFO | app.main | POST /auth/register -> 422 (0.001s)
+2026-08-26 13:34:17,107 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 422 Unprocessable Entity"
+2026-08-26 13:34:17,113 | WARNING | app.services.rate_limit_service | Registration rate limit exceeded: ip=testclient attempts=3 limit=3
+2026-08-26 13:34:17,113 | WARNING | app.api.auth | Registration rate limit exceeded: ip=testclient login=unread_user
+2026-08-26 13:34:17,113 | INFO | app.main | POST /auth/register -> 429 (0.001s)
+2026-08-26 13:34:17,114 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 429 Too Many Requests"
+2026-08-26 13:34:17,668 | INFO | app.services.auth_service | User registered successfully: user_id=4 login=svcuser
+2026-08-26 13:34:17,670 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:34:17,676 | WARNING | app.services.rate_limit_service | Registration rate limit exceeded: ip=testclient attempts=3 limit=3
+2026-08-26 13:34:17,676 | WARNING | app.api.auth | Registration rate limit exceeded: ip=testclient login=ws_user
+2026-08-26 13:34:17,676 | INFO | app.main | POST /auth/register -> 429 (0.002s)
+2026-08-26 13:34:17,677 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 429 Too Many Requests"
+2026-08-26 13:34:17,682 | INFO | app.main | POST /auth/register -> 422 (0.001s)
+2026-08-26 13:34:17,682 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 422 Unprocessable Entity"
+2026-08-26 13:34:17,686 | INFO | app.main | Application shutdown
+2026-08-26 13:39:34,043 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:39:34,062 | INFO | app.main | API routers initialized
+2026-08-26 13:39:34,063 | INFO | app.main | Static files mounted
+2026-08-26 13:39:36,253 | INFO | app.main | Application startup
+2026-08-26 13:39:36,254 | INFO | app.main | Database tables initialized
+2026-08-26 13:39:36,424 | INFO | app.services.auth_service | User registered successfully: user_id=1 login=testuser
+2026-08-26 13:39:36,425 | INFO | app.api.auth | User registered: user_id=1 username=Test User
+2026-08-26 13:39:36,429 | INFO | app.main | POST /auth/register -> 200 (0.174s)
+2026-08-26 13:39:36,430 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:36,501 | INFO | app.services.auth_service | User authenticated successfully: user_id=1
+2026-08-26 13:39:36,502 | INFO | app.api.auth | User logged in: user_id=1 username=Test User
+2026-08-26 13:39:36,502 | INFO | app.main | POST /auth/login -> 200 (0.071s)
+2026-08-26 13:39:36,503 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 200 OK"
+2026-08-26 13:39:36,506 | INFO | app.main | GET /auth/me -> 200 (0.002s)
+2026-08-26 13:39:36,506 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 200 OK"
+2026-08-26 13:39:36,677 | INFO | app.services.auth_service | User registered successfully: user_id=2 login=dupuser
+2026-08-26 13:39:36,677 | INFO | app.api.auth | User registered: user_id=2 username=Dup User
+2026-08-26 13:39:36,678 | INFO | app.main | POST /auth/register -> 200 (0.169s)
+2026-08-26 13:39:36,679 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:36,684 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 13:39:36,685 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 13:39:36,686 | INFO | app.main | POST /auth/register -> 400 (0.006s)
+2026-08-26 13:39:36,686 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:39:36,872 | INFO | app.services.auth_service | User registered successfully: user_id=3 login=chat_user1
+2026-08-26 13:39:36,873 | INFO | app.api.auth | User registered: user_id=3 username=User One
+2026-08-26 13:39:36,874 | INFO | app.main | POST /auth/register -> 200 (0.183s)
+2026-08-26 13:39:36,874 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:37,045 | INFO | app.services.auth_service | User registered successfully: user_id=4 login=chat_user2
+2026-08-26 13:39:37,045 | INFO | app.api.auth | User registered: user_id=4 username=User Two
+2026-08-26 13:39:37,045 | INFO | app.main | POST /auth/register -> 200 (0.168s)
+2026-08-26 13:39:37,046 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:37,160 | INFO | app.services.chat_service | Private chat created: chat_id=1 user1_id=3 user2_id=4
+2026-08-26 13:39:37,161 | INFO | app.api.chat | Private chat accessed: user_id=3 target_user_id=4 chat_id=1
+2026-08-26 13:39:37,164 | INFO | app.main | POST /chats/private -> 200 (0.118s)
+2026-08-26 13:39:37,165 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:39:37,176 | INFO | app.main | GET /chats/ -> 200 (0.01s)
+2026-08-26 13:39:37,176 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 200 OK"
+2026-08-26 13:39:37,377 | INFO | app.services.auth_service | User registered successfully: user_id=5 login=fav_user
+2026-08-26 13:39:37,377 | INFO | app.api.auth | User registered: user_id=5 username=Fav User
+2026-08-26 13:39:37,379 | INFO | app.main | POST /auth/register -> 200 (0.201s)
+2026-08-26 13:39:37,380 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:37,525 | INFO | app.services.chat_service | Favorite chat created: chat_id=2 user_id=5
+2026-08-26 13:39:37,527 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=2
+2026-08-26 13:39:37,528 | INFO | app.main | POST /chats/favorite -> 200 (0.146s)
+2026-08-26 13:39:37,529 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:39:37,714 | INFO | app.services.auth_service | User registered successfully: user_id=6 login=msg_user1
+2026-08-26 13:39:37,714 | INFO | app.api.auth | User registered: user_id=6 username=Msg One
+2026-08-26 13:39:37,716 | INFO | app.main | POST /auth/register -> 200 (0.184s)
+2026-08-26 13:39:37,717 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:37,905 | INFO | app.services.auth_service | User registered successfully: user_id=7 login=msg_user2
+2026-08-26 13:39:37,905 | INFO | app.api.auth | User registered: user_id=7 username=Msg Two
+2026-08-26 13:39:37,906 | INFO | app.main | POST /auth/register -> 200 (0.187s)
+2026-08-26 13:39:37,907 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:38,042 | INFO | app.services.chat_service | Private chat created: chat_id=3 user1_id=6 user2_id=7
+2026-08-26 13:39:38,043 | INFO | app.api.chat | Private chat accessed: user_id=6 target_user_id=7 chat_id=3
+2026-08-26 13:39:38,044 | INFO | app.main | POST /chats/private -> 200 (0.134s)
+2026-08-26 13:39:38,045 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:39:38,196 | INFO | app.services.message_service | Message sent: message_id=1 chat_id=3 sender_id=6 file_id=None reply_to_id=None
+2026-08-26 13:39:38,197 | INFO | app.api.message | Message sent: message_id=1 chat_id=3 user_id=6
+2026-08-26 13:39:38,202 | INFO | app.main | POST /messages/ -> 200 (0.155s)
+2026-08-26 13:39:38,203 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 200 OK"
+2026-08-26 13:39:38,342 | INFO | app.services.message_service | Message marked as read: message_id=1 user_id=7
+2026-08-26 13:39:38,343 | INFO | app.main | PUT /messages/1/read -> 200 (0.137s)
+2026-08-26 13:39:38,343 | INFO | httpx | HTTP Request: PUT http://testserver/messages/1/read "HTTP/1.1 200 OK"
+2026-08-26 13:39:38,555 | INFO | app.services.auth_service | User registered successfully: user_id=8 login=unread_user
+2026-08-26 13:39:38,555 | INFO | app.api.auth | User registered: user_id=8 username=Unread
+2026-08-26 13:39:38,556 | INFO | app.main | POST /auth/register -> 200 (0.21s)
+2026-08-26 13:39:38,557 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:38,562 | INFO | app.services.message_service | Unread counts loaded: user_id=8 chat_count=0
+2026-08-26 13:39:38,563 | INFO | app.main | GET /messages/unread/counts -> 200 (0.005s)
+2026-08-26 13:39:38,563 | INFO | httpx | HTTP Request: GET http://testserver/messages/unread/counts "HTTP/1.1 200 OK"
+2026-08-26 13:39:38,878 | INFO | app.services.auth_service | User registered successfully: user_id=9 login=svcuser
+2026-08-26 13:39:38,878 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:39:39,086 | INFO | app.services.auth_service | User registered successfully: user_id=10 login=ws_user
+2026-08-26 13:39:39,086 | INFO | app.api.auth | User registered: user_id=10 username=WS User
+2026-08-26 13:39:39,087 | INFO | app.main | POST /auth/register -> 200 (0.207s)
+2026-08-26 13:39:39,088 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:39,091 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=10 connections=1
+2026-08-26 13:39:39,091 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=10
+2026-08-26 13:39:39,227 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:39:39,230 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:39:39,279 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 code=1000
+2026-08-26 13:39:39,280 | INFO | app.websocket.chat_ws | User went offline: user_id=10
+2026-08-26 13:39:39,280 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 became_offline=True
+2026-08-26 13:39:39,434 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=offline members=0
+2026-08-26 13:39:39,655 | INFO | app.services.auth_service | User registered successfully: user_id=11 login=ws_user1
+2026-08-26 13:39:39,656 | INFO | app.api.auth | User registered: user_id=11 username=WS1
+2026-08-26 13:39:39,658 | INFO | app.main | POST /auth/register -> 200 (0.219s)
+2026-08-26 13:39:39,660 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:39,880 | INFO | app.services.auth_service | User registered successfully: user_id=12 login=ws_user2
+2026-08-26 13:39:39,881 | INFO | app.api.auth | User registered: user_id=12 username=WS2
+2026-08-26 13:39:39,883 | INFO | app.main | POST /auth/register -> 200 (0.22s)
+2026-08-26 13:39:39,883 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:39:39,974 | INFO | app.services.chat_service | Private chat created: chat_id=4 user1_id=11 user2_id=12
+2026-08-26 13:39:39,975 | INFO | app.api.chat | Private chat accessed: user_id=11 target_user_id=12 chat_id=4
+2026-08-26 13:39:39,976 | INFO | app.main | POST /chats/private -> 200 (0.092s)
+2026-08-26 13:39:39,976 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:39:39,983 | INFO | app.websocket.chat_ws | WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:39:39,984 | INFO | app.api.websocket_routes | Chat WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:39:40,101 | INFO | app.services.message_service | Message sent: message_id=2 chat_id=4 sender_id=11 file_id=None reply_to_id=None
+2026-08-26 13:39:40,101 | INFO | app.api.websocket_routes | Message sent via WebSocket: message_id=2 chat_id=4 user_id=11
+2026-08-26 13:39:40,110 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11 code=1000
+2026-08-26 13:39:40,111 | INFO | app.websocket.chat_ws | WebSocket disconnecting: chat_id=4
+2026-08-26 13:39:40,111 | INFO | app.websocket.chat_ws | Chat WebSocket connections cleared: chat_id=4
+2026-08-26 13:39:40,111 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11
+2026-08-26 13:39:40,112 | INFO | app.main | Application shutdown
+2026-08-26 13:45:07,021 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:45:07,040 | INFO | app.main | API routers initialized
+2026-08-26 13:45:07,040 | INFO | app.main | Static files mounted
+2026-08-26 13:45:24,439 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:45:24,458 | INFO | app.main | API routers initialized
+2026-08-26 13:45:24,459 | INFO | app.main | Static files mounted
+2026-08-26 13:45:24,541 | INFO | app.main | Application startup
+2026-08-26 13:45:24,543 | INFO | app.main | Database tables initialized
+2026-08-26 13:45:24,558 | WARNING | app.services.auth_service | Registration failed: login already exists login=testuser
+2026-08-26 13:45:24,558 | WARNING | app.api.auth | Registration failed: login=testuser reason=Login already exists
+2026-08-26 13:45:24,558 | INFO | app.main | POST /auth/register -> 400 (0.014s)
+2026-08-26 13:45:24,559 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:45:24,658 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 13:45:24,658 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 13:45:24,658 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:45:24,658 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:45:24,663 | WARNING | app.services.auth_service | Registration failed: login already exists login=chat_user1
+2026-08-26 13:45:24,663 | WARNING | app.api.auth | Registration failed: login=chat_user1 reason=Login already exists
+2026-08-26 13:45:24,664 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:45:24,664 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:45:24,670 | WARNING | app.services.auth_service | Registration failed: login already exists login=fav_user
+2026-08-26 13:45:24,670 | WARNING | app.api.auth | Registration failed: login=fav_user reason=Login already exists
+2026-08-26 13:45:24,670 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:45:24,670 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:45:24,676 | WARNING | app.services.auth_service | Registration failed: login already exists login=msg_user1
+2026-08-26 13:45:24,676 | WARNING | app.api.auth | Registration failed: login=msg_user1 reason=Login already exists
+2026-08-26 13:45:24,676 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:45:24,677 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:45:24,685 | WARNING | app.services.auth_service | Registration failed: login already exists login=unread_user
+2026-08-26 13:45:24,685 | WARNING | app.api.auth | Registration failed: login=unread_user reason=Login already exists
+2026-08-26 13:45:24,686 | INFO | app.main | POST /auth/register -> 400 (0.001s)
+2026-08-26 13:45:24,686 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:45:24,831 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:45:24,839 | WARNING | app.services.auth_service | Registration failed: login already exists login=ws_user
+2026-08-26 13:45:24,839 | WARNING | app.api.auth | Registration failed: login=ws_user reason=Login already exists
+2026-08-26 13:45:24,840 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:45:24,840 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:45:24,846 | WARNING | app.services.auth_service | Registration failed: login already exists login=ws_user1
+2026-08-26 13:45:24,846 | WARNING | app.api.auth | Registration failed: login=ws_user1 reason=Login already exists
+2026-08-26 13:45:24,846 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:45:24,846 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:45:24,850 | INFO | app.main | Application shutdown
+2026-08-26 13:45:34,996 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:45:35,015 | INFO | app.main | API routers initialized
+2026-08-26 13:45:35,015 | INFO | app.main | Static files mounted
+2026-08-26 13:45:37,116 | INFO | app.main | Application startup
+2026-08-26 13:45:37,118 | INFO | app.main | Database tables initialized
+2026-08-26 13:45:37,286 | INFO | app.services.auth_service | User registered successfully: user_id=1 login=testuser
+2026-08-26 13:45:37,286 | INFO | app.api.auth | User registered: user_id=1 username=Test User
+2026-08-26 13:45:37,293 | INFO | app.main | POST /auth/register -> 200 (0.173s)
+2026-08-26 13:45:37,293 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:37,358 | INFO | app.services.auth_service | User authenticated successfully: user_id=1
+2026-08-26 13:45:37,358 | INFO | app.api.auth | User logged in: user_id=1 username=Test User
+2026-08-26 13:45:37,359 | INFO | app.main | POST /auth/login -> 200 (0.065s)
+2026-08-26 13:45:37,360 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 200 OK"
+2026-08-26 13:45:37,362 | INFO | app.main | GET /auth/me -> 200 (0.002s)
+2026-08-26 13:45:37,363 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 200 OK"
+2026-08-26 13:45:37,532 | INFO | app.services.auth_service | User registered successfully: user_id=2 login=dupuser
+2026-08-26 13:45:37,533 | INFO | app.api.auth | User registered: user_id=2 username=Dup User
+2026-08-26 13:45:37,533 | INFO | app.main | POST /auth/register -> 200 (0.168s)
+2026-08-26 13:45:37,534 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:37,539 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 13:45:37,539 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 13:45:37,540 | INFO | app.main | POST /auth/register -> 400 (0.004s)
+2026-08-26 13:45:37,540 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:45:37,722 | INFO | app.services.auth_service | User registered successfully: user_id=3 login=chat_user1
+2026-08-26 13:45:37,723 | INFO | app.api.auth | User registered: user_id=3 username=User One
+2026-08-26 13:45:37,723 | INFO | app.main | POST /auth/register -> 200 (0.181s)
+2026-08-26 13:45:37,724 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:37,891 | INFO | app.services.auth_service | User registered successfully: user_id=4 login=chat_user2
+2026-08-26 13:45:37,892 | INFO | app.api.auth | User registered: user_id=4 username=User Two
+2026-08-26 13:45:37,894 | INFO | app.main | POST /auth/register -> 200 (0.17s)
+2026-08-26 13:45:37,897 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:38,018 | INFO | app.services.chat_service | Private chat created: chat_id=1 user1_id=3 user2_id=4
+2026-08-26 13:45:38,020 | INFO | app.api.chat | Private chat accessed: user_id=3 target_user_id=4 chat_id=1
+2026-08-26 13:45:38,022 | INFO | app.main | POST /chats/private -> 200 (0.123s)
+2026-08-26 13:45:38,022 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:45:38,031 | INFO | app.main | GET /chats/ -> 200 (0.008s)
+2026-08-26 13:45:38,032 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 200 OK"
+2026-08-26 13:45:38,199 | INFO | app.services.auth_service | User registered successfully: user_id=5 login=fav_user
+2026-08-26 13:45:38,200 | INFO | app.api.auth | User registered: user_id=5 username=Fav User
+2026-08-26 13:45:38,202 | INFO | app.main | POST /auth/register -> 200 (0.169s)
+2026-08-26 13:45:38,204 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:38,341 | INFO | app.services.chat_service | Favorite chat created: chat_id=2 user_id=5
+2026-08-26 13:45:38,344 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=2
+2026-08-26 13:45:38,346 | INFO | app.main | POST /chats/favorite -> 200 (0.139s)
+2026-08-26 13:45:38,348 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:45:38,547 | INFO | app.services.auth_service | User registered successfully: user_id=6 login=msg_user1
+2026-08-26 13:45:38,547 | INFO | app.api.auth | User registered: user_id=6 username=Msg One
+2026-08-26 13:45:38,548 | INFO | app.main | POST /auth/register -> 200 (0.192s)
+2026-08-26 13:45:38,548 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:38,750 | INFO | app.services.auth_service | User registered successfully: user_id=7 login=msg_user2
+2026-08-26 13:45:38,750 | INFO | app.api.auth | User registered: user_id=7 username=Msg Two
+2026-08-26 13:45:38,753 | INFO | app.main | POST /auth/register -> 200 (0.203s)
+2026-08-26 13:45:38,755 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:38,883 | INFO | app.services.chat_service | Private chat created: chat_id=3 user1_id=6 user2_id=7
+2026-08-26 13:45:38,885 | INFO | app.api.chat | Private chat accessed: user_id=6 target_user_id=7 chat_id=3
+2026-08-26 13:45:38,886 | INFO | app.main | POST /chats/private -> 200 (0.128s)
+2026-08-26 13:45:38,886 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:45:39,042 | INFO | app.services.message_service | Message sent: message_id=1 chat_id=3 sender_id=6 file_id=None reply_to_id=None
+2026-08-26 13:45:39,044 | INFO | app.api.message | Message sent: message_id=1 chat_id=3 user_id=6
+2026-08-26 13:45:39,045 | INFO | app.main | POST /messages/ -> 200 (0.157s)
+2026-08-26 13:45:39,045 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 200 OK"
+2026-08-26 13:45:39,199 | INFO | app.services.message_service | Message marked as read: message_id=1 user_id=7
+2026-08-26 13:45:39,201 | INFO | app.main | PUT /messages/1/read -> 200 (0.155s)
+2026-08-26 13:45:39,203 | INFO | httpx | HTTP Request: PUT http://testserver/messages/1/read "HTTP/1.1 200 OK"
+2026-08-26 13:45:39,400 | INFO | app.services.auth_service | User registered successfully: user_id=8 login=unread_user
+2026-08-26 13:45:39,400 | INFO | app.api.auth | User registered: user_id=8 username=Unread
+2026-08-26 13:45:39,403 | INFO | app.main | POST /auth/register -> 200 (0.194s)
+2026-08-26 13:45:39,405 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:39,419 | INFO | app.services.message_service | Unread counts loaded: user_id=8 chat_count=0
+2026-08-26 13:45:39,419 | INFO | app.main | GET /messages/unread/counts -> 200 (0.012s)
+2026-08-26 13:45:39,420 | INFO | httpx | HTTP Request: GET http://testserver/messages/unread/counts "HTTP/1.1 200 OK"
+2026-08-26 13:45:39,766 | INFO | app.services.auth_service | User registered successfully: user_id=9 login=svcuser
+2026-08-26 13:45:39,768 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:45:39,975 | INFO | app.services.auth_service | User registered successfully: user_id=10 login=ws_user
+2026-08-26 13:45:39,975 | INFO | app.api.auth | User registered: user_id=10 username=WS User
+2026-08-26 13:45:39,978 | INFO | app.main | POST /auth/register -> 200 (0.205s)
+2026-08-26 13:45:39,980 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:39,988 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=10 connections=1
+2026-08-26 13:45:39,988 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=10
+2026-08-26 13:45:40,119 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:45:40,121 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:45:40,171 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 code=1000
+2026-08-26 13:45:40,172 | INFO | app.websocket.chat_ws | User went offline: user_id=10
+2026-08-26 13:45:40,172 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 became_offline=True
+2026-08-26 13:45:40,350 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=offline members=0
+2026-08-26 13:45:40,598 | INFO | app.services.auth_service | User registered successfully: user_id=11 login=ws_user1
+2026-08-26 13:45:40,598 | INFO | app.api.auth | User registered: user_id=11 username=WS1
+2026-08-26 13:45:40,599 | INFO | app.main | POST /auth/register -> 200 (0.244s)
+2026-08-26 13:45:40,600 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:40,825 | INFO | app.services.auth_service | User registered successfully: user_id=12 login=ws_user2
+2026-08-26 13:45:40,825 | INFO | app.api.auth | User registered: user_id=12 username=WS2
+2026-08-26 13:45:40,827 | INFO | app.main | POST /auth/register -> 200 (0.226s)
+2026-08-26 13:45:40,828 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:45:40,983 | INFO | app.services.chat_service | Private chat created: chat_id=4 user1_id=11 user2_id=12
+2026-08-26 13:45:40,985 | INFO | app.api.chat | Private chat accessed: user_id=11 target_user_id=12 chat_id=4
+2026-08-26 13:45:40,986 | INFO | app.main | POST /chats/private -> 200 (0.156s)
+2026-08-26 13:45:40,987 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:45:40,995 | INFO | app.websocket.chat_ws | WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:45:40,995 | INFO | app.api.websocket_routes | Chat WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:45:41,130 | INFO | app.services.message_service | Message sent: message_id=2 chat_id=4 sender_id=11 file_id=None reply_to_id=None
+2026-08-26 13:45:41,130 | INFO | app.api.websocket_routes | Message sent via WebSocket: message_id=2 chat_id=4 user_id=11
+2026-08-26 13:45:41,138 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11 code=1000
+2026-08-26 13:45:41,138 | INFO | app.websocket.chat_ws | WebSocket disconnecting: chat_id=4
+2026-08-26 13:45:41,138 | INFO | app.websocket.chat_ws | Chat WebSocket connections cleared: chat_id=4
+2026-08-26 13:45:41,138 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11
+2026-08-26 13:45:41,139 | INFO | app.main | Application shutdown
+2026-08-26 13:45:58,433 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:45:58,453 | INFO | app.main | API routers initialized
+2026-08-26 13:45:58,453 | INFO | app.main | Static files mounted
+2026-08-26 13:46:00,442 | INFO | app.main | Application startup
+2026-08-26 13:46:00,444 | INFO | app.main | Database tables initialized
+2026-08-26 13:46:00,635 | INFO | app.services.auth_service | User registered successfully: user_id=1 login=testuser
+2026-08-26 13:46:00,635 | INFO | app.api.auth | User registered: user_id=1 username=Test User
+2026-08-26 13:46:00,644 | INFO | app.main | POST /auth/register -> 200 (0.198s)
+2026-08-26 13:46:00,644 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:00,710 | INFO | app.services.auth_service | User authenticated successfully: user_id=1
+2026-08-26 13:46:00,711 | INFO | app.api.auth | User logged in: user_id=1 username=Test User
+2026-08-26 13:46:00,711 | INFO | app.main | POST /auth/login -> 200 (0.066s)
+2026-08-26 13:46:00,712 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 200 OK"
+2026-08-26 13:46:00,715 | INFO | app.main | GET /auth/me -> 200 (0.002s)
+2026-08-26 13:46:00,715 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 200 OK"
+2026-08-26 13:46:00,877 | INFO | app.services.auth_service | User registered successfully: user_id=2 login=dupuser
+2026-08-26 13:46:00,877 | INFO | app.api.auth | User registered: user_id=2 username=Dup User
+2026-08-26 13:46:00,879 | INFO | app.main | POST /auth/register -> 200 (0.161s)
+2026-08-26 13:46:00,881 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:00,887 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 13:46:00,887 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 13:46:00,888 | INFO | app.main | POST /auth/register -> 400 (0.005s)
+2026-08-26 13:46:00,889 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:46:01,093 | INFO | app.services.auth_service | User registered successfully: user_id=3 login=chat_user1
+2026-08-26 13:46:01,094 | INFO | app.api.auth | User registered: user_id=3 username=User One
+2026-08-26 13:46:01,096 | INFO | app.main | POST /auth/register -> 200 (0.202s)
+2026-08-26 13:46:01,098 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:01,285 | INFO | app.services.auth_service | User registered successfully: user_id=4 login=chat_user2
+2026-08-26 13:46:01,286 | INFO | app.api.auth | User registered: user_id=4 username=User Two
+2026-08-26 13:46:01,288 | INFO | app.main | POST /auth/register -> 200 (0.188s)
+2026-08-26 13:46:01,290 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:01,416 | INFO | app.services.chat_service | Private chat created: chat_id=1 user1_id=3 user2_id=4
+2026-08-26 13:46:01,417 | INFO | app.api.chat | Private chat accessed: user_id=3 target_user_id=4 chat_id=1
+2026-08-26 13:46:01,419 | INFO | app.main | POST /chats/private -> 200 (0.126s)
+2026-08-26 13:46:01,420 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:46:01,428 | INFO | app.main | GET /chats/ -> 200 (0.007s)
+2026-08-26 13:46:01,429 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 200 OK"
+2026-08-26 13:46:01,602 | INFO | app.services.auth_service | User registered successfully: user_id=5 login=fav_user
+2026-08-26 13:46:01,602 | INFO | app.api.auth | User registered: user_id=5 username=Fav User
+2026-08-26 13:46:01,605 | INFO | app.main | POST /auth/register -> 200 (0.174s)
+2026-08-26 13:46:01,607 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:01,743 | INFO | app.services.chat_service | Favorite chat created: chat_id=2 user_id=5
+2026-08-26 13:46:01,745 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=2
+2026-08-26 13:46:01,746 | INFO | app.main | POST /chats/favorite -> 200 (0.137s)
+2026-08-26 13:46:01,747 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:46:01,943 | INFO | app.services.auth_service | User registered successfully: user_id=6 login=msg_user1
+2026-08-26 13:46:01,944 | INFO | app.api.auth | User registered: user_id=6 username=Msg One
+2026-08-26 13:46:01,946 | INFO | app.main | POST /auth/register -> 200 (0.194s)
+2026-08-26 13:46:01,947 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:02,135 | INFO | app.services.auth_service | User registered successfully: user_id=7 login=msg_user2
+2026-08-26 13:46:02,135 | INFO | app.api.auth | User registered: user_id=7 username=Msg Two
+2026-08-26 13:46:02,138 | INFO | app.main | POST /auth/register -> 200 (0.189s)
+2026-08-26 13:46:02,140 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:02,277 | INFO | app.services.chat_service | Private chat created: chat_id=3 user1_id=6 user2_id=7
+2026-08-26 13:46:02,278 | INFO | app.api.chat | Private chat accessed: user_id=6 target_user_id=7 chat_id=3
+2026-08-26 13:46:02,279 | INFO | app.main | POST /chats/private -> 200 (0.137s)
+2026-08-26 13:46:02,280 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:46:02,455 | INFO | app.services.message_service | Message sent: message_id=1 chat_id=3 sender_id=6 file_id=None reply_to_id=None
+2026-08-26 13:46:02,456 | INFO | app.api.message | Message sent: message_id=1 chat_id=3 user_id=6
+2026-08-26 13:46:02,457 | INFO | app.main | POST /messages/ -> 200 (0.175s)
+2026-08-26 13:46:02,458 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 200 OK"
+2026-08-26 13:46:02,664 | INFO | app.services.message_service | Message marked as read: message_id=1 user_id=7
+2026-08-26 13:46:02,667 | INFO | app.main | PUT /messages/1/read -> 200 (0.208s)
+2026-08-26 13:46:02,669 | INFO | httpx | HTTP Request: PUT http://testserver/messages/1/read "HTTP/1.1 200 OK"
+2026-08-26 13:46:02,893 | INFO | app.services.auth_service | User registered successfully: user_id=8 login=unread_user
+2026-08-26 13:46:02,894 | INFO | app.api.auth | User registered: user_id=8 username=Unread
+2026-08-26 13:46:02,896 | INFO | app.main | POST /auth/register -> 200 (0.221s)
+2026-08-26 13:46:02,898 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:02,912 | INFO | app.services.message_service | Unread counts loaded: user_id=8 chat_count=0
+2026-08-26 13:46:02,913 | INFO | app.main | GET /messages/unread/counts -> 200 (0.012s)
+2026-08-26 13:46:02,914 | INFO | httpx | HTTP Request: GET http://testserver/messages/unread/counts "HTTP/1.1 200 OK"
+2026-08-26 13:46:03,226 | INFO | app.services.auth_service | User registered successfully: user_id=9 login=svcuser
+2026-08-26 13:46:03,228 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:46:03,475 | INFO | app.services.auth_service | User registered successfully: user_id=10 login=ws_user
+2026-08-26 13:46:03,475 | INFO | app.api.auth | User registered: user_id=10 username=WS User
+2026-08-26 13:46:03,476 | INFO | app.main | POST /auth/register -> 200 (0.243s)
+2026-08-26 13:46:03,476 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:03,493 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=10 connections=1
+2026-08-26 13:46:03,493 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=10
+2026-08-26 13:46:03,617 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:46:03,619 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:46:03,669 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 code=1000
+2026-08-26 13:46:03,670 | INFO | app.websocket.chat_ws | User went offline: user_id=10
+2026-08-26 13:46:03,671 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 became_offline=True
+2026-08-26 13:46:03,857 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=offline members=0
+2026-08-26 13:46:04,085 | INFO | app.services.auth_service | User registered successfully: user_id=11 login=ws_user1
+2026-08-26 13:46:04,086 | INFO | app.api.auth | User registered: user_id=11 username=WS1
+2026-08-26 13:46:04,088 | INFO | app.main | POST /auth/register -> 200 (0.225s)
+2026-08-26 13:46:04,090 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:04,310 | INFO | app.services.auth_service | User registered successfully: user_id=12 login=ws_user2
+2026-08-26 13:46:04,310 | INFO | app.api.auth | User registered: user_id=12 username=WS2
+2026-08-26 13:46:04,312 | INFO | app.main | POST /auth/register -> 200 (0.22s)
+2026-08-26 13:46:04,315 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:46:04,460 | INFO | app.services.chat_service | Private chat created: chat_id=4 user1_id=11 user2_id=12
+2026-08-26 13:46:04,461 | INFO | app.api.chat | Private chat accessed: user_id=11 target_user_id=12 chat_id=4
+2026-08-26 13:46:04,462 | INFO | app.main | POST /chats/private -> 200 (0.145s)
+2026-08-26 13:46:04,463 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:46:04,473 | INFO | app.websocket.chat_ws | WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:46:04,473 | INFO | app.api.websocket_routes | Chat WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:46:04,605 | INFO | app.services.message_service | Message sent: message_id=2 chat_id=4 sender_id=11 file_id=None reply_to_id=None
+2026-08-26 13:46:04,607 | INFO | app.api.websocket_routes | Message sent via WebSocket: message_id=2 chat_id=4 user_id=11
+2026-08-26 13:46:04,617 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11 code=1000
+2026-08-26 13:46:04,617 | INFO | app.websocket.chat_ws | WebSocket disconnecting: chat_id=4
+2026-08-26 13:46:04,617 | INFO | app.websocket.chat_ws | Chat WebSocket connections cleared: chat_id=4
+2026-08-26 13:46:04,617 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11
+2026-08-26 13:46:04,618 | INFO | app.main | Application shutdown
+2026-08-26 13:48:35,757 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:48:35,793 | INFO | app.main | API routers initialized
+2026-08-26 13:48:35,793 | INFO | app.main | Static files mounted
+2026-08-26 13:48:35,939 | INFO | app.main | Application startup
+2026-08-26 13:48:35,941 | INFO | app.main | Database tables initialized
+2026-08-26 13:48:35,970 | WARNING | app.services.auth_service | Registration failed: login already exists login=testuser
+2026-08-26 13:48:35,970 | WARNING | app.api.auth | Registration failed: login=testuser reason=Login already exists
+2026-08-26 13:48:35,971 | INFO | app.main | POST /auth/register -> 400 (0.027s)
+2026-08-26 13:48:35,972 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:48:36,040 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 13:48:36,040 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 13:48:36,041 | INFO | app.main | POST /auth/register -> 400 (0.003s)
+2026-08-26 13:48:36,041 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:48:36,049 | WARNING | app.services.auth_service | Registration failed: login already exists login=chat_user1
+2026-08-26 13:48:36,049 | WARNING | app.api.auth | Registration failed: login=chat_user1 reason=Login already exists
+2026-08-26 13:48:36,050 | INFO | app.main | POST /auth/register -> 400 (0.003s)
+2026-08-26 13:48:36,050 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:48:36,059 | WARNING | app.services.auth_service | Registration failed: login already exists login=fav_user
+2026-08-26 13:48:36,060 | WARNING | app.api.auth | Registration failed: login=fav_user reason=Login already exists
+2026-08-26 13:48:36,060 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:48:36,061 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:48:36,069 | WARNING | app.services.auth_service | Registration failed: login already exists login=msg_user1
+2026-08-26 13:48:36,069 | WARNING | app.api.auth | Registration failed: login=msg_user1 reason=Login already exists
+2026-08-26 13:48:36,070 | INFO | app.main | POST /auth/register -> 400 (0.003s)
+2026-08-26 13:48:36,070 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:48:36,080 | WARNING | app.services.auth_service | Registration failed: login already exists login=unread_user
+2026-08-26 13:48:36,081 | WARNING | app.api.auth | Registration failed: login=unread_user reason=Login already exists
+2026-08-26 13:48:36,081 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:48:36,082 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:48:36,229 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:48:36,239 | WARNING | app.services.auth_service | Registration failed: login already exists login=ws_user
+2026-08-26 13:48:36,240 | WARNING | app.api.auth | Registration failed: login=ws_user reason=Login already exists
+2026-08-26 13:48:36,240 | INFO | app.main | POST /auth/register -> 400 (0.003s)
+2026-08-26 13:48:36,241 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:48:36,249 | WARNING | app.services.auth_service | Registration failed: login already exists login=ws_user1
+2026-08-26 13:48:36,249 | WARNING | app.api.auth | Registration failed: login=ws_user1 reason=Login already exists
+2026-08-26 13:48:36,250 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:48:36,250 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:48:36,256 | INFO | app.main | Application shutdown
+2026-08-26 13:50:02,610 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:50:02,642 | INFO | app.main | API routers initialized
+2026-08-26 13:50:02,643 | INFO | app.main | Static files mounted
+2026-08-26 13:50:05,202 | INFO | app.main | Application startup
+2026-08-26 13:50:05,204 | INFO | app.main | Database tables initialized
+2026-08-26 13:50:05,404 | INFO | app.services.auth_service | User registered successfully: user_id=1 login=testuser
+2026-08-26 13:50:05,404 | INFO | app.api.auth | User registered: user_id=1 username=Test User
+2026-08-26 13:50:05,411 | INFO | app.main | POST /auth/register -> 200 (0.204s)
+2026-08-26 13:50:05,413 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:05,489 | INFO | app.services.auth_service | User authenticated successfully: user_id=1
+2026-08-26 13:50:05,489 | INFO | app.api.auth | User logged in: user_id=1 username=Test User
+2026-08-26 13:50:05,490 | INFO | app.main | POST /auth/login -> 200 (0.076s)
+2026-08-26 13:50:05,491 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 200 OK"
+2026-08-26 13:50:05,495 | INFO | app.main | GET /auth/me -> 200 (0.004s)
+2026-08-26 13:50:05,496 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 200 OK"
+2026-08-26 13:50:05,693 | INFO | app.services.auth_service | User registered successfully: user_id=2 login=dupuser
+2026-08-26 13:50:05,694 | INFO | app.api.auth | User registered: user_id=2 username=Dup User
+2026-08-26 13:50:05,695 | INFO | app.main | POST /auth/register -> 200 (0.195s)
+2026-08-26 13:50:05,697 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:05,706 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 13:50:05,706 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 13:50:05,709 | INFO | app.main | POST /auth/register -> 400 (0.009s)
+2026-08-26 13:50:05,710 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:50:05,902 | INFO | app.services.auth_service | User registered successfully: user_id=3 login=chat_user1
+2026-08-26 13:50:05,903 | INFO | app.api.auth | User registered: user_id=3 username=User One
+2026-08-26 13:50:05,903 | INFO | app.main | POST /auth/register -> 200 (0.183s)
+2026-08-26 13:50:05,905 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:06,118 | INFO | app.services.auth_service | User registered successfully: user_id=4 login=chat_user2
+2026-08-26 13:50:06,118 | INFO | app.api.auth | User registered: user_id=4 username=User Two
+2026-08-26 13:50:06,120 | INFO | app.main | POST /auth/register -> 200 (0.213s)
+2026-08-26 13:50:06,121 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:06,261 | INFO | app.services.chat_service | Private chat created: chat_id=1 user1_id=3 user2_id=4
+2026-08-26 13:50:06,262 | INFO | app.api.chat | Private chat accessed: user_id=3 target_user_id=4 chat_id=1
+2026-08-26 13:50:06,266 | INFO | app.main | POST /chats/private -> 200 (0.144s)
+2026-08-26 13:50:06,266 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:50:06,279 | INFO | app.main | GET /chats/ -> 200 (0.011s)
+2026-08-26 13:50:06,280 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 200 OK"
+2026-08-26 13:50:06,466 | INFO | app.services.auth_service | User registered successfully: user_id=5 login=fav_user
+2026-08-26 13:50:06,467 | INFO | app.api.auth | User registered: user_id=5 username=Fav User
+2026-08-26 13:50:06,468 | INFO | app.main | POST /auth/register -> 200 (0.186s)
+2026-08-26 13:50:06,470 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:06,609 | INFO | app.services.chat_service | Favorite chat created: chat_id=2 user_id=5
+2026-08-26 13:50:06,611 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=2
+2026-08-26 13:50:06,612 | INFO | app.main | POST /chats/favorite -> 200 (0.139s)
+2026-08-26 13:50:06,614 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:50:06,818 | INFO | app.services.auth_service | User registered successfully: user_id=6 login=msg_user1
+2026-08-26 13:50:06,818 | INFO | app.api.auth | User registered: user_id=6 username=Msg One
+2026-08-26 13:50:06,819 | INFO | app.main | POST /auth/register -> 200 (0.195s)
+2026-08-26 13:50:06,821 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:07,031 | INFO | app.services.auth_service | User registered successfully: user_id=7 login=msg_user2
+2026-08-26 13:50:07,032 | INFO | app.api.auth | User registered: user_id=7 username=Msg Two
+2026-08-26 13:50:07,032 | INFO | app.main | POST /auth/register -> 200 (0.209s)
+2026-08-26 13:50:07,044 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:07,184 | INFO | app.services.chat_service | Private chat created: chat_id=3 user1_id=6 user2_id=7
+2026-08-26 13:50:07,187 | INFO | app.api.chat | Private chat accessed: user_id=6 target_user_id=7 chat_id=3
+2026-08-26 13:50:07,188 | INFO | app.main | POST /chats/private -> 200 (0.143s)
+2026-08-26 13:50:07,190 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:50:07,336 | INFO | app.services.message_service | Message sent: message_id=1 chat_id=3 sender_id=6 file_id=None reply_to_id=None
+2026-08-26 13:50:07,336 | INFO | app.api.message | Message sent: message_id=1 chat_id=3 user_id=6
+2026-08-26 13:50:07,338 | INFO | app.main | POST /messages/ -> 200 (0.145s)
+2026-08-26 13:50:07,339 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 200 OK"
+2026-08-26 13:50:07,475 | INFO | app.services.message_service | Message marked as read: message_id=1 user_id=7
+2026-08-26 13:50:07,477 | INFO | app.main | PUT /messages/1/read -> 200 (0.136s)
+2026-08-26 13:50:07,478 | INFO | httpx | HTTP Request: PUT http://testserver/messages/1/read "HTTP/1.1 200 OK"
+2026-08-26 13:50:07,726 | INFO | app.services.auth_service | User registered successfully: user_id=8 login=unread_user
+2026-08-26 13:50:07,727 | INFO | app.api.auth | User registered: user_id=8 username=Unread
+2026-08-26 13:50:07,728 | INFO | app.main | POST /auth/register -> 200 (0.241s)
+2026-08-26 13:50:07,729 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:07,743 | INFO | app.services.message_service | Unread counts loaded: user_id=8 chat_count=0
+2026-08-26 13:50:07,744 | INFO | app.main | GET /messages/unread/counts -> 200 (0.011s)
+2026-08-26 13:50:07,744 | INFO | httpx | HTTP Request: GET http://testserver/messages/unread/counts "HTTP/1.1 200 OK"
+2026-08-26 13:50:08,109 | INFO | app.services.auth_service | User registered successfully: user_id=9 login=svcuser
+2026-08-26 13:50:08,111 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:50:08,356 | INFO | app.services.auth_service | User registered successfully: user_id=10 login=ws_user
+2026-08-26 13:50:08,356 | INFO | app.api.auth | User registered: user_id=10 username=WS User
+2026-08-26 13:50:08,357 | INFO | app.main | POST /auth/register -> 200 (0.242s)
+2026-08-26 13:50:08,358 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:08,363 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=10 connections=1
+2026-08-26 13:50:08,363 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=10
+2026-08-26 13:50:08,492 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:50:08,494 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:50:08,545 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 code=1000
+2026-08-26 13:50:08,547 | INFO | app.websocket.chat_ws | User went offline: user_id=10
+2026-08-26 13:50:08,547 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 became_offline=True
+2026-08-26 13:50:08,673 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=offline members=0
+2026-08-26 13:50:08,882 | INFO | app.services.auth_service | User registered successfully: user_id=11 login=ws_user1
+2026-08-26 13:50:08,883 | INFO | app.api.auth | User registered: user_id=11 username=WS1
+2026-08-26 13:50:08,884 | INFO | app.main | POST /auth/register -> 200 (0.207s)
+2026-08-26 13:50:08,886 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:09,140 | INFO | app.services.auth_service | User registered successfully: user_id=12 login=ws_user2
+2026-08-26 13:50:09,140 | INFO | app.api.auth | User registered: user_id=12 username=WS2
+2026-08-26 13:50:09,142 | INFO | app.main | POST /auth/register -> 200 (0.254s)
+2026-08-26 13:50:09,142 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:50:09,323 | INFO | app.services.chat_service | Private chat created: chat_id=4 user1_id=11 user2_id=12
+2026-08-26 13:50:09,324 | INFO | app.api.chat | Private chat accessed: user_id=11 target_user_id=12 chat_id=4
+2026-08-26 13:50:09,326 | INFO | app.main | POST /chats/private -> 200 (0.183s)
+2026-08-26 13:50:09,328 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:50:09,339 | INFO | app.websocket.chat_ws | WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:50:09,340 | INFO | app.api.websocket_routes | Chat WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:50:09,481 | INFO | app.services.message_service | Message sent: message_id=2 chat_id=4 sender_id=11 file_id=None reply_to_id=None
+2026-08-26 13:50:09,481 | INFO | app.api.websocket_routes | Message sent via WebSocket: message_id=2 chat_id=4 user_id=11
+2026-08-26 13:50:09,494 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11 code=1000
+2026-08-26 13:50:09,494 | INFO | app.websocket.chat_ws | WebSocket disconnecting: chat_id=4
+2026-08-26 13:50:09,494 | INFO | app.websocket.chat_ws | Chat WebSocket connections cleared: chat_id=4
+2026-08-26 13:50:09,494 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11
+2026-08-26 13:50:09,496 | INFO | app.main | Application shutdown
+2026-08-26 13:56:38,781 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:56:38,816 | INFO | app.main | API routers initialized
+2026-08-26 13:56:38,817 | INFO | app.main | Static files mounted
+2026-08-26 13:56:42,546 | INFO | app.main | Application startup
+2026-08-26 13:56:42,549 | INFO | app.main | Database tables initialized
+2026-08-26 13:56:42,557 | INFO | app.main | POST /auth/register -> 422 (0.005s)
+2026-08-26 13:56:42,559 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 422 Unprocessable Entity"
+2026-08-26 13:56:42,746 | INFO | app.services.auth_service | User registered successfully: user_id=1 login=good_cffaf4fa
+2026-08-26 13:56:42,747 | INFO | app.api.auth | User registered: user_id=1 username=User
+2026-08-26 13:56:42,753 | INFO | app.main | POST /auth/register -> 200 (0.192s)
+2026-08-26 13:56:42,754 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:42,812 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-26 13:56:42,812 | WARNING | app.api.auth | Login failed: login=good_cffaf4fa
+2026-08-26 13:56:42,813 | INFO | app.main | POST /auth/login -> 401 (0.058s)
+2026-08-26 13:56:42,814 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 401 Unauthorized"
+2026-08-26 13:56:42,819 | INFO | app.main | GET /auth/me -> 401 (0.001s)
+2026-08-26 13:56:42,819 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 401 Unauthorized"
+2026-08-26 13:56:43,019 | INFO | app.services.auth_service | User registered successfully: user_id=2 login=cu_f84a1a16
+2026-08-26 13:56:43,020 | INFO | app.api.auth | User registered: user_id=2 username=User
+2026-08-26 13:56:43,021 | INFO | app.main | POST /auth/register -> 200 (0.199s)
+2026-08-26 13:56:43,022 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:43,039 | WARNING | app.services.chat_service | Private chat creation failed: user not found user1_id=2 user2_id=9999999
+2026-08-26 13:56:43,039 | INFO | app.api.chat | Private chat accessed: user_id=2 target_user_id=9999999 chat_id=None
+2026-08-26 13:56:43,040 | ERROR | app.main | POST /chats/private -> ERROR (0.015s)
+Traceback (most recent call last):
+  File "D:\it\messenger\backend\app\main.py", line 71, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 695, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 300, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'int_type', 'loc': ('response', 'id'), 'msg': 'Input should be a valid integer', 'input': None}
+
+  File "D:\it\messenger\backend\app\api\chat.py", line 147, in create_or_get_private_chat
+    POST /chats/private
+2026-08-26 13:56:43,077 | ERROR | app.main | Unhandled application exception: POST /chats/private
+Traceback (most recent call last):
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\it\messenger\backend\app\main.py", line 71, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 695, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 300, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'int_type', 'loc': ('response', 'id'), 'msg': 'Input should be a valid integer', 'input': None}
+
+  File "D:\it\messenger\backend\app\api\chat.py", line 147, in create_or_get_private_chat
+    POST /chats/private
+2026-08-26 13:56:43,727 | INFO | app.services.auth_service | User registered successfully: user_id=3 login=msg_66327234
+2026-08-26 13:56:43,728 | INFO | app.api.auth | User registered: user_id=3 username=User
+2026-08-26 13:56:43,729 | INFO | app.main | POST /auth/register -> 200 (0.216s)
+2026-08-26 13:56:43,731 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:43,745 | WARNING | app.api.message | Chat access failed: chat not found chat_id=9999999 user_id=3
+2026-08-26 13:56:43,746 | INFO | app.main | POST /messages/ -> 404 (0.011s)
+2026-08-26 13:56:43,747 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 404 Not Found"
+2026-08-26 13:56:43,941 | INFO | app.services.auth_service | User registered successfully: user_id=4 login=mr_98af3798
+2026-08-26 13:56:43,941 | INFO | app.api.auth | User registered: user_id=4 username=User
+2026-08-26 13:56:43,942 | INFO | app.main | POST /auth/register -> 200 (0.192s)
+2026-08-26 13:56:43,943 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:43,950 | ERROR | app.main | PUT /messages/9999999/read -> ERROR (0.007s)
+Traceback (most recent call last):
+  File "D:\it\messenger\backend\app\main.py", line 71, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 695, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 300, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+  File "D:\it\messenger\backend\app\api\message.py", line 129, in mark_message_as_read
+    PUT /messages/{message_id}/read
+2026-08-26 13:56:43,952 | ERROR | app.main | Unhandled application exception: PUT /messages/9999999/read
+Traceback (most recent call last):
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\it\messenger\backend\app\main.py", line 71, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 695, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 300, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+  File "D:\it\messenger\backend\app\api\message.py", line 129, in mark_message_as_read
+    PUT /messages/{message_id}/read
+2026-08-26 13:56:44,545 | INFO | app.services.auth_service | User registered successfully: user_id=5 login=fav_7d9e83a8
+2026-08-26 13:56:44,545 | INFO | app.api.auth | User registered: user_id=5 username=User
+2026-08-26 13:56:44,547 | INFO | app.main | POST /auth/register -> 200 (0.211s)
+2026-08-26 13:56:44,549 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:44,745 | INFO | app.services.chat_service | Favorite chat created: chat_id=1 user_id=5
+2026-08-26 13:56:44,746 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=1
+2026-08-26 13:56:44,747 | INFO | app.main | POST /chats/favorite -> 200 (0.196s)
+2026-08-26 13:56:44,748 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:56:44,754 | INFO | app.services.chat_service | Favorite chat found: chat_id=1 user_id=5
+2026-08-26 13:56:44,756 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=1
+2026-08-26 13:56:44,757 | INFO | app.main | POST /chats/favorite -> 200 (0.007s)
+2026-08-26 13:56:44,757 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:56:44,762 | WARNING | app.api.websocket_routes | WebSocket authentication failed: invalid token
+2026-08-26 13:56:44,767 | INFO | app.main | GET /chats/ -> 401 (0.002s)
+2026-08-26 13:56:44,768 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 401 Unauthorized"
+2026-08-26 13:56:45,043 | INFO | app.services.auth_service | User registered successfully: user_id=6 login=testuser
+2026-08-26 13:56:45,043 | INFO | app.api.auth | User registered: user_id=6 username=Test User
+2026-08-26 13:56:45,045 | INFO | app.main | POST /auth/register -> 200 (0.274s)
+2026-08-26 13:56:45,046 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:45,106 | INFO | app.services.auth_service | User authenticated successfully: user_id=6
+2026-08-26 13:56:45,106 | INFO | app.api.auth | User logged in: user_id=6 username=Test User
+2026-08-26 13:56:45,107 | INFO | app.main | POST /auth/login -> 200 (0.06s)
+2026-08-26 13:56:45,108 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 200 OK"
+2026-08-26 13:56:45,111 | INFO | app.main | GET /auth/me -> 200 (0.002s)
+2026-08-26 13:56:45,112 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 200 OK"
+2026-08-26 13:56:45,327 | INFO | app.services.auth_service | User registered successfully: user_id=7 login=dupuser
+2026-08-26 13:56:45,328 | INFO | app.api.auth | User registered: user_id=7 username=Dup User
+2026-08-26 13:56:45,329 | INFO | app.main | POST /auth/register -> 200 (0.215s)
+2026-08-26 13:56:45,331 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:45,338 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 13:56:45,338 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 13:56:45,340 | INFO | app.main | POST /auth/register -> 400 (0.007s)
+2026-08-26 13:56:45,341 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:56:45,494 | INFO | app.services.auth_service | User registered successfully: user_id=8 login=chat_user1
+2026-08-26 13:56:45,494 | INFO | app.api.auth | User registered: user_id=8 username=User One
+2026-08-26 13:56:45,497 | INFO | app.main | POST /auth/register -> 200 (0.148s)
+2026-08-26 13:56:45,499 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:45,657 | INFO | app.services.auth_service | User registered successfully: user_id=9 login=chat_user2
+2026-08-26 13:56:45,658 | INFO | app.api.auth | User registered: user_id=9 username=User Two
+2026-08-26 13:56:45,658 | INFO | app.main | POST /auth/register -> 200 (0.157s)
+2026-08-26 13:56:45,659 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:45,760 | INFO | app.services.chat_service | Private chat created: chat_id=2 user1_id=8 user2_id=9
+2026-08-26 13:56:45,762 | INFO | app.api.chat | Private chat accessed: user_id=8 target_user_id=9 chat_id=2
+2026-08-26 13:56:45,765 | INFO | app.main | POST /chats/private -> 200 (0.105s)
+2026-08-26 13:56:45,766 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:56:45,777 | INFO | app.main | GET /chats/ -> 200 (0.011s)
+2026-08-26 13:56:45,778 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 200 OK"
+2026-08-26 13:56:45,952 | INFO | app.services.auth_service | User registered successfully: user_id=10 login=fav_user
+2026-08-26 13:56:45,953 | INFO | app.api.auth | User registered: user_id=10 username=Fav User
+2026-08-26 13:56:45,954 | INFO | app.main | POST /auth/register -> 200 (0.174s)
+2026-08-26 13:56:45,956 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:46,068 | INFO | app.services.chat_service | Favorite chat created: chat_id=3 user_id=10
+2026-08-26 13:56:46,070 | INFO | app.api.chat | Favorite chat accessed: user_id=10 chat_id=3
+2026-08-26 13:56:46,072 | INFO | app.main | POST /chats/favorite -> 200 (0.113s)
+2026-08-26 13:56:46,075 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:56:46,227 | INFO | app.services.auth_service | User registered successfully: user_id=11 login=msg_user1
+2026-08-26 13:56:46,228 | INFO | app.api.auth | User registered: user_id=11 username=Msg One
+2026-08-26 13:56:46,229 | INFO | app.main | POST /auth/register -> 200 (0.147s)
+2026-08-26 13:56:46,231 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:46,407 | INFO | app.services.auth_service | User registered successfully: user_id=12 login=msg_user2
+2026-08-26 13:56:46,408 | INFO | app.api.auth | User registered: user_id=12 username=Msg Two
+2026-08-26 13:56:46,409 | INFO | app.main | POST /auth/register -> 200 (0.175s)
+2026-08-26 13:56:46,409 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:46,519 | INFO | app.services.chat_service | Private chat created: chat_id=4 user1_id=11 user2_id=12
+2026-08-26 13:56:46,520 | INFO | app.api.chat | Private chat accessed: user_id=11 target_user_id=12 chat_id=4
+2026-08-26 13:56:46,521 | INFO | app.main | POST /chats/private -> 200 (0.111s)
+2026-08-26 13:56:46,522 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:56:46,637 | INFO | app.services.message_service | Message sent: message_id=1 chat_id=4 sender_id=11 file_id=None reply_to_id=None
+2026-08-26 13:56:46,638 | INFO | app.api.message | Message sent: message_id=1 chat_id=4 user_id=11
+2026-08-26 13:56:46,640 | INFO | app.main | POST /messages/ -> 200 (0.116s)
+2026-08-26 13:56:46,641 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 200 OK"
+2026-08-26 13:56:46,751 | INFO | app.services.message_service | Message marked as read: message_id=1 user_id=12
+2026-08-26 13:56:46,755 | INFO | app.main | PUT /messages/1/read -> 200 (0.112s)
+2026-08-26 13:56:46,758 | INFO | httpx | HTTP Request: PUT http://testserver/messages/1/read "HTTP/1.1 200 OK"
+2026-08-26 13:56:46,952 | INFO | app.services.auth_service | User registered successfully: user_id=13 login=unread_user
+2026-08-26 13:56:46,952 | INFO | app.api.auth | User registered: user_id=13 username=Unread
+2026-08-26 13:56:46,954 | INFO | app.main | POST /auth/register -> 200 (0.188s)
+2026-08-26 13:56:46,957 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:46,972 | INFO | app.services.message_service | Unread counts loaded: user_id=13 chat_count=0
+2026-08-26 13:56:46,972 | INFO | app.main | GET /messages/unread/counts -> 200 (0.013s)
+2026-08-26 13:56:46,973 | INFO | httpx | HTTP Request: GET http://testserver/messages/unread/counts "HTTP/1.1 200 OK"
+2026-08-26 13:56:47,268 | INFO | app.services.auth_service | User registered successfully: user_id=14 login=svcuser
+2026-08-26 13:56:47,269 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:56:47,476 | INFO | app.services.auth_service | User registered successfully: user_id=15 login=ws_user
+2026-08-26 13:56:47,477 | INFO | app.api.auth | User registered: user_id=15 username=WS User
+2026-08-26 13:56:47,480 | INFO | app.main | POST /auth/register -> 200 (0.205s)
+2026-08-26 13:56:47,482 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:47,488 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=15 connections=1
+2026-08-26 13:56:47,489 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=15
+2026-08-26 13:56:47,587 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=15 status=online members=0
+2026-08-26 13:56:47,590 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=15 status=online members=0
+2026-08-26 13:56:47,640 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=15 code=1000
+2026-08-26 13:56:47,641 | INFO | app.websocket.chat_ws | User went offline: user_id=15
+2026-08-26 13:56:47,642 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=15 became_offline=True
+2026-08-26 13:56:47,779 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=15 status=offline members=0
+2026-08-26 13:56:48,010 | INFO | app.services.auth_service | User registered successfully: user_id=16 login=ws_user1
+2026-08-26 13:56:48,011 | INFO | app.api.auth | User registered: user_id=16 username=WS1
+2026-08-26 13:56:48,014 | INFO | app.main | POST /auth/register -> 200 (0.227s)
+2026-08-26 13:56:48,017 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:48,250 | INFO | app.services.auth_service | User registered successfully: user_id=17 login=ws_user2
+2026-08-26 13:56:48,250 | INFO | app.api.auth | User registered: user_id=17 username=WS2
+2026-08-26 13:56:48,253 | INFO | app.main | POST /auth/register -> 200 (0.233s)
+2026-08-26 13:56:48,255 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:56:48,410 | INFO | app.services.chat_service | Private chat created: chat_id=5 user1_id=16 user2_id=17
+2026-08-26 13:56:48,411 | INFO | app.api.chat | Private chat accessed: user_id=16 target_user_id=17 chat_id=5
+2026-08-26 13:56:48,413 | INFO | app.main | POST /chats/private -> 200 (0.157s)
+2026-08-26 13:56:48,415 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:56:48,427 | INFO | app.websocket.chat_ws | WebSocket connected: chat_id=5 user_id=16
+2026-08-26 13:56:48,427 | INFO | app.api.websocket_routes | Chat WebSocket connected: chat_id=5 user_id=16
+2026-08-26 13:56:48,607 | INFO | app.services.message_service | Message sent: message_id=2 chat_id=5 sender_id=16 file_id=None reply_to_id=None
+2026-08-26 13:56:48,609 | INFO | app.api.websocket_routes | Message sent via WebSocket: message_id=2 chat_id=5 user_id=16
+2026-08-26 13:56:48,621 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=5 user_id=16 code=1000
+2026-08-26 13:56:48,621 | INFO | app.websocket.chat_ws | WebSocket disconnecting: chat_id=5
+2026-08-26 13:56:48,621 | INFO | app.websocket.chat_ws | Chat WebSocket connections cleared: chat_id=5
+2026-08-26 13:56:48,621 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=5 user_id=16
+2026-08-26 13:56:48,623 | INFO | app.main | Application shutdown
+2026-08-26 13:58:14,686 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:58:14,723 | INFO | app.main | API routers initialized
+2026-08-26 13:58:14,723 | INFO | app.main | Static files mounted
+2026-08-26 13:58:18,433 | INFO | app.main | Application startup
+2026-08-26 13:58:18,436 | INFO | app.main | Database tables initialized
+2026-08-26 13:58:18,444 | INFO | app.main | POST /auth/register -> 422 (0.005s)
+2026-08-26 13:58:18,445 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 422 Unprocessable Entity"
+2026-08-26 13:58:18,660 | INFO | app.services.auth_service | User registered successfully: user_id=1 login=good_e31b8350
+2026-08-26 13:58:18,660 | INFO | app.api.auth | User registered: user_id=1 username=User
+2026-08-26 13:58:18,667 | INFO | app.main | POST /auth/register -> 200 (0.219s)
+2026-08-26 13:58:18,668 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:18,743 | WARNING | app.services.auth_service | Authentication failed: invalid password user_id=1
+2026-08-26 13:58:18,743 | WARNING | app.api.auth | Login failed: login=good_e31b8350
+2026-08-26 13:58:18,744 | INFO | app.main | POST /auth/login -> 401 (0.075s)
+2026-08-26 13:58:18,745 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 401 Unauthorized"
+2026-08-26 13:58:18,750 | INFO | app.main | GET /auth/me -> 401 (0.001s)
+2026-08-26 13:58:18,750 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 401 Unauthorized"
+2026-08-26 13:58:18,943 | INFO | app.services.auth_service | User registered successfully: user_id=2 login=cu_70fa7a3a
+2026-08-26 13:58:18,943 | INFO | app.api.auth | User registered: user_id=2 username=User
+2026-08-26 13:58:18,946 | INFO | app.main | POST /auth/register -> 200 (0.194s)
+2026-08-26 13:58:18,947 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:18,960 | WARNING | app.services.chat_service | Private chat creation failed: user not found user1_id=2 user2_id=9999999
+2026-08-26 13:58:18,960 | INFO | app.api.chat | Private chat accessed: user_id=2 target_user_id=9999999 chat_id=None
+2026-08-26 13:58:18,961 | ERROR | app.main | POST /chats/private -> ERROR (0.011s)
+Traceback (most recent call last):
+  File "D:\it\messenger\backend\app\main.py", line 71, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 695, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 300, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'int_type', 'loc': ('response', 'id'), 'msg': 'Input should be a valid integer', 'input': None}
+
+  File "D:\it\messenger\backend\app\api\chat.py", line 147, in create_or_get_private_chat
+    POST /chats/private
+2026-08-26 13:58:18,966 | ERROR | app.main | Unhandled application exception: POST /chats/private
+Traceback (most recent call last):
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\it\messenger\backend\app\main.py", line 71, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 695, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 300, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'int_type', 'loc': ('response', 'id'), 'msg': 'Input should be a valid integer', 'input': None}
+
+  File "D:\it\messenger\backend\app\api\chat.py", line 147, in create_or_get_private_chat
+    POST /chats/private
+2026-08-26 13:58:19,650 | INFO | app.services.auth_service | User registered successfully: user_id=3 login=msg_7fc7267a
+2026-08-26 13:58:19,651 | INFO | app.api.auth | User registered: user_id=3 username=User
+2026-08-26 13:58:19,652 | INFO | app.main | POST /auth/register -> 200 (0.26s)
+2026-08-26 13:58:19,655 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:19,672 | WARNING | app.api.message | Chat access failed: chat not found chat_id=9999999 user_id=3
+2026-08-26 13:58:19,672 | INFO | app.main | POST /messages/ -> 404 (0.014s)
+2026-08-26 13:58:19,673 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 404 Not Found"
+2026-08-26 13:58:19,892 | INFO | app.services.auth_service | User registered successfully: user_id=4 login=mr_4aa41f3f
+2026-08-26 13:58:19,893 | INFO | app.api.auth | User registered: user_id=4 username=User
+2026-08-26 13:58:19,894 | INFO | app.main | POST /auth/register -> 200 (0.219s)
+2026-08-26 13:58:19,895 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:19,907 | ERROR | app.main | PUT /messages/9999999/read -> ERROR (0.01s)
+Traceback (most recent call last):
+  File "D:\it\messenger\backend\app\main.py", line 71, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 695, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 300, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+  File "D:\it\messenger\backend\app\api\message.py", line 129, in mark_message_as_read
+    PUT /messages/{message_id}/read
+2026-08-26 13:58:19,909 | ERROR | app.main | Unhandled application exception: PUT /messages/9999999/read
+Traceback (most recent call last):
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_utils.py", line 87, in collapse_excgroups
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\it\messenger\backend\app\main.py", line 71, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 695, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Nikita\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\fastapi\routing.py", line 300, in serialize_response
+    raise ResponseValidationError(
+    ...<3 lines>...
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation error:
+  {'type': 'model_attributes_type', 'loc': ('response',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+  File "D:\it\messenger\backend\app\api\message.py", line 129, in mark_message_as_read
+    PUT /messages/{message_id}/read
+2026-08-26 13:58:20,492 | INFO | app.services.auth_service | User registered successfully: user_id=5 login=fav_84691441
+2026-08-26 13:58:20,493 | INFO | app.api.auth | User registered: user_id=5 username=User
+2026-08-26 13:58:20,494 | INFO | app.main | POST /auth/register -> 200 (0.192s)
+2026-08-26 13:58:20,495 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:20,631 | INFO | app.services.chat_service | Favorite chat created: chat_id=1 user_id=5
+2026-08-26 13:58:20,633 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=1
+2026-08-26 13:58:20,634 | INFO | app.main | POST /chats/favorite -> 200 (0.138s)
+2026-08-26 13:58:20,635 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:58:20,639 | INFO | app.services.chat_service | Favorite chat found: chat_id=1 user_id=5
+2026-08-26 13:58:20,641 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=1
+2026-08-26 13:58:20,642 | INFO | app.main | POST /chats/favorite -> 200 (0.006s)
+2026-08-26 13:58:20,642 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:58:20,648 | WARNING | app.api.websocket_routes | WebSocket authentication failed: invalid token
+2026-08-26 13:58:20,655 | INFO | app.main | GET /chats/ -> 401 (0.003s)
+2026-08-26 13:58:20,656 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 401 Unauthorized"
+2026-08-26 13:58:20,874 | INFO | app.services.auth_service | User registered successfully: user_id=6 login=testuser
+2026-08-26 13:58:20,875 | INFO | app.api.auth | User registered: user_id=6 username=Test User
+2026-08-26 13:58:20,876 | INFO | app.main | POST /auth/register -> 200 (0.217s)
+2026-08-26 13:58:20,877 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:20,961 | INFO | app.services.auth_service | User authenticated successfully: user_id=6
+2026-08-26 13:58:20,961 | INFO | app.api.auth | User logged in: user_id=6 username=Test User
+2026-08-26 13:58:20,962 | INFO | app.main | POST /auth/login -> 200 (0.082s)
+2026-08-26 13:58:20,963 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 200 OK"
+2026-08-26 13:58:20,966 | INFO | app.main | GET /auth/me -> 200 (0.002s)
+2026-08-26 13:58:20,967 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 200 OK"
+2026-08-26 13:58:21,167 | INFO | app.services.auth_service | User registered successfully: user_id=7 login=dupuser
+2026-08-26 13:58:21,168 | INFO | app.api.auth | User registered: user_id=7 username=Dup User
+2026-08-26 13:58:21,169 | INFO | app.main | POST /auth/register -> 200 (0.2s)
+2026-08-26 13:58:21,171 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:21,180 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 13:58:21,180 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 13:58:21,182 | INFO | app.main | POST /auth/register -> 400 (0.007s)
+2026-08-26 13:58:21,183 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:58:21,397 | INFO | app.services.auth_service | User registered successfully: user_id=8 login=chat_user1
+2026-08-26 13:58:21,398 | INFO | app.api.auth | User registered: user_id=8 username=User One
+2026-08-26 13:58:21,398 | INFO | app.main | POST /auth/register -> 200 (0.208s)
+2026-08-26 13:58:21,399 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:21,609 | INFO | app.services.auth_service | User registered successfully: user_id=9 login=chat_user2
+2026-08-26 13:58:21,609 | INFO | app.api.auth | User registered: user_id=9 username=User Two
+2026-08-26 13:58:21,611 | INFO | app.main | POST /auth/register -> 200 (0.211s)
+2026-08-26 13:58:21,612 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:21,789 | INFO | app.services.chat_service | Private chat created: chat_id=2 user1_id=8 user2_id=9
+2026-08-26 13:58:21,790 | INFO | app.api.chat | Private chat accessed: user_id=8 target_user_id=9 chat_id=2
+2026-08-26 13:58:21,793 | INFO | app.main | POST /chats/private -> 200 (0.178s)
+2026-08-26 13:58:21,794 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:58:21,803 | INFO | app.main | GET /chats/ -> 200 (0.008s)
+2026-08-26 13:58:21,804 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 200 OK"
+2026-08-26 13:58:22,023 | INFO | app.services.auth_service | User registered successfully: user_id=10 login=fav_user
+2026-08-26 13:58:22,024 | INFO | app.api.auth | User registered: user_id=10 username=Fav User
+2026-08-26 13:58:22,025 | INFO | app.main | POST /auth/register -> 200 (0.219s)
+2026-08-26 13:58:22,026 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:22,132 | INFO | app.services.chat_service | Favorite chat created: chat_id=3 user_id=10
+2026-08-26 13:58:22,133 | INFO | app.api.chat | Favorite chat accessed: user_id=10 chat_id=3
+2026-08-26 13:58:22,134 | INFO | app.main | POST /chats/favorite -> 200 (0.107s)
+2026-08-26 13:58:22,136 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:58:22,325 | INFO | app.services.auth_service | User registered successfully: user_id=11 login=msg_user1
+2026-08-26 13:58:22,326 | INFO | app.api.auth | User registered: user_id=11 username=Msg One
+2026-08-26 13:58:22,327 | INFO | app.main | POST /auth/register -> 200 (0.181s)
+2026-08-26 13:58:22,329 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:22,500 | INFO | app.services.auth_service | User registered successfully: user_id=12 login=msg_user2
+2026-08-26 13:58:22,500 | INFO | app.api.auth | User registered: user_id=12 username=Msg Two
+2026-08-26 13:58:22,502 | INFO | app.main | POST /auth/register -> 200 (0.171s)
+2026-08-26 13:58:22,505 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:22,625 | INFO | app.services.chat_service | Private chat created: chat_id=4 user1_id=11 user2_id=12
+2026-08-26 13:58:22,627 | INFO | app.api.chat | Private chat accessed: user_id=11 target_user_id=12 chat_id=4
+2026-08-26 13:58:22,628 | INFO | app.main | POST /chats/private -> 200 (0.12s)
+2026-08-26 13:58:22,630 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:58:22,743 | INFO | app.services.message_service | Message sent: message_id=1 chat_id=4 sender_id=11 file_id=None reply_to_id=None
+2026-08-26 13:58:22,744 | INFO | app.api.message | Message sent: message_id=1 chat_id=4 user_id=11
+2026-08-26 13:58:22,745 | INFO | app.main | POST /messages/ -> 200 (0.113s)
+2026-08-26 13:58:22,746 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 200 OK"
+2026-08-26 13:58:22,833 | INFO | app.services.message_service | Message marked as read: message_id=1 user_id=12
+2026-08-26 13:58:22,837 | INFO | app.main | PUT /messages/1/read -> 200 (0.089s)
+2026-08-26 13:58:22,840 | INFO | httpx | HTTP Request: PUT http://testserver/messages/1/read "HTTP/1.1 200 OK"
+2026-08-26 13:58:23,006 | INFO | app.services.auth_service | User registered successfully: user_id=13 login=unread_user
+2026-08-26 13:58:23,006 | INFO | app.api.auth | User registered: user_id=13 username=Unread
+2026-08-26 13:58:23,007 | INFO | app.main | POST /auth/register -> 200 (0.156s)
+2026-08-26 13:58:23,008 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:23,014 | INFO | app.services.message_service | Unread counts loaded: user_id=13 chat_count=0
+2026-08-26 13:58:23,014 | INFO | app.main | GET /messages/unread/counts -> 200 (0.005s)
+2026-08-26 13:58:23,015 | INFO | httpx | HTTP Request: GET http://testserver/messages/unread/counts "HTTP/1.1 200 OK"
+2026-08-26 13:58:23,314 | INFO | app.services.auth_service | User registered successfully: user_id=14 login=svcuser
+2026-08-26 13:58:23,315 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:58:23,484 | INFO | app.services.auth_service | User registered successfully: user_id=15 login=ws_user
+2026-08-26 13:58:23,484 | INFO | app.api.auth | User registered: user_id=15 username=WS User
+2026-08-26 13:58:23,486 | INFO | app.main | POST /auth/register -> 200 (0.168s)
+2026-08-26 13:58:23,486 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:23,489 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=15 connections=1
+2026-08-26 13:58:23,489 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=15
+2026-08-26 13:58:23,579 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=15 status=online members=0
+2026-08-26 13:58:23,581 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=15 status=online members=0
+2026-08-26 13:58:23,632 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=15 code=1000
+2026-08-26 13:58:23,633 | INFO | app.websocket.chat_ws | User went offline: user_id=15
+2026-08-26 13:58:23,634 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=15 became_offline=True
+2026-08-26 13:58:23,734 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=15 status=offline members=0
+2026-08-26 13:58:23,907 | INFO | app.services.auth_service | User registered successfully: user_id=16 login=ws_user1
+2026-08-26 13:58:23,907 | INFO | app.api.auth | User registered: user_id=16 username=WS1
+2026-08-26 13:58:23,908 | INFO | app.main | POST /auth/register -> 200 (0.168s)
+2026-08-26 13:58:23,910 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:24,099 | INFO | app.services.auth_service | User registered successfully: user_id=17 login=ws_user2
+2026-08-26 13:58:24,100 | INFO | app.api.auth | User registered: user_id=17 username=WS2
+2026-08-26 13:58:24,101 | INFO | app.main | POST /auth/register -> 200 (0.189s)
+2026-08-26 13:58:24,103 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:58:24,234 | INFO | app.services.chat_service | Private chat created: chat_id=5 user1_id=16 user2_id=17
+2026-08-26 13:58:24,235 | INFO | app.api.chat | Private chat accessed: user_id=16 target_user_id=17 chat_id=5
+2026-08-26 13:58:24,237 | INFO | app.main | POST /chats/private -> 200 (0.131s)
+2026-08-26 13:58:24,237 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:58:24,250 | INFO | app.websocket.chat_ws | WebSocket connected: chat_id=5 user_id=16
+2026-08-26 13:58:24,250 | INFO | app.api.websocket_routes | Chat WebSocket connected: chat_id=5 user_id=16
+2026-08-26 13:58:24,366 | INFO | app.services.message_service | Message sent: message_id=2 chat_id=5 sender_id=16 file_id=None reply_to_id=None
+2026-08-26 13:58:24,366 | INFO | app.api.websocket_routes | Message sent via WebSocket: message_id=2 chat_id=5 user_id=16
+2026-08-26 13:58:24,378 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=5 user_id=16 code=1000
+2026-08-26 13:58:24,379 | INFO | app.websocket.chat_ws | WebSocket disconnecting: chat_id=5
+2026-08-26 13:58:24,379 | INFO | app.websocket.chat_ws | Chat WebSocket connections cleared: chat_id=5
+2026-08-26 13:58:24,379 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=5 user_id=16
+2026-08-26 13:58:24,380 | INFO | app.main | Application shutdown
+2026-08-26 13:59:01,973 | INFO | app.main | FastAPI application initialized
+2026-08-26 13:59:02,007 | INFO | app.main | API routers initialized
+2026-08-26 13:59:02,008 | INFO | app.main | Static files mounted
+2026-08-26 13:59:05,625 | INFO | app.main | Application startup
+2026-08-26 13:59:05,627 | INFO | app.main | Database tables initialized
+2026-08-26 13:59:05,858 | INFO | app.services.auth_service | User registered successfully: user_id=1 login=testuser
+2026-08-26 13:59:05,858 | INFO | app.api.auth | User registered: user_id=1 username=Test User
+2026-08-26 13:59:05,867 | INFO | app.main | POST /auth/register -> 200 (0.237s)
+2026-08-26 13:59:05,868 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:05,940 | INFO | app.services.auth_service | User authenticated successfully: user_id=1
+2026-08-26 13:59:05,940 | INFO | app.api.auth | User logged in: user_id=1 username=Test User
+2026-08-26 13:59:05,941 | INFO | app.main | POST /auth/login -> 200 (0.072s)
+2026-08-26 13:59:05,942 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 200 OK"
+2026-08-26 13:59:05,946 | INFO | app.main | GET /auth/me -> 200 (0.003s)
+2026-08-26 13:59:05,947 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 200 OK"
+2026-08-26 13:59:06,151 | INFO | app.services.auth_service | User registered successfully: user_id=2 login=dupuser
+2026-08-26 13:59:06,152 | INFO | app.api.auth | User registered: user_id=2 username=Dup User
+2026-08-26 13:59:06,153 | INFO | app.main | POST /auth/register -> 200 (0.202s)
+2026-08-26 13:59:06,153 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:06,156 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 13:59:06,156 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 13:59:06,156 | INFO | app.main | POST /auth/register -> 400 (0.002s)
+2026-08-26 13:59:06,157 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 13:59:06,370 | INFO | app.services.auth_service | User registered successfully: user_id=3 login=chat_user1
+2026-08-26 13:59:06,371 | INFO | app.api.auth | User registered: user_id=3 username=User One
+2026-08-26 13:59:06,372 | INFO | app.main | POST /auth/register -> 200 (0.212s)
+2026-08-26 13:59:06,374 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:06,612 | INFO | app.services.auth_service | User registered successfully: user_id=4 login=chat_user2
+2026-08-26 13:59:06,613 | INFO | app.api.auth | User registered: user_id=4 username=User Two
+2026-08-26 13:59:06,614 | INFO | app.main | POST /auth/register -> 200 (0.237s)
+2026-08-26 13:59:06,616 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:06,772 | INFO | app.services.chat_service | Private chat created: chat_id=1 user1_id=3 user2_id=4
+2026-08-26 13:59:06,775 | INFO | app.api.chat | Private chat accessed: user_id=3 target_user_id=4 chat_id=1
+2026-08-26 13:59:06,778 | INFO | app.main | POST /chats/private -> 200 (0.159s)
+2026-08-26 13:59:06,780 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:59:06,794 | INFO | app.main | GET /chats/ -> 200 (0.013s)
+2026-08-26 13:59:06,795 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 200 OK"
+2026-08-26 13:59:07,004 | INFO | app.services.auth_service | User registered successfully: user_id=5 login=fav_user
+2026-08-26 13:59:07,005 | INFO | app.api.auth | User registered: user_id=5 username=Fav User
+2026-08-26 13:59:07,006 | INFO | app.main | POST /auth/register -> 200 (0.209s)
+2026-08-26 13:59:07,008 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:07,176 | INFO | app.services.chat_service | Favorite chat created: chat_id=2 user_id=5
+2026-08-26 13:59:07,177 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=2
+2026-08-26 13:59:07,177 | INFO | app.main | POST /chats/favorite -> 200 (0.167s)
+2026-08-26 13:59:07,178 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 13:59:07,379 | INFO | app.services.auth_service | User registered successfully: user_id=6 login=msg_user1
+2026-08-26 13:59:07,380 | INFO | app.api.auth | User registered: user_id=6 username=Msg One
+2026-08-26 13:59:07,381 | INFO | app.main | POST /auth/register -> 200 (0.2s)
+2026-08-26 13:59:07,383 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:07,611 | INFO | app.services.auth_service | User registered successfully: user_id=7 login=msg_user2
+2026-08-26 13:59:07,611 | INFO | app.api.auth | User registered: user_id=7 username=Msg Two
+2026-08-26 13:59:07,613 | INFO | app.main | POST /auth/register -> 200 (0.227s)
+2026-08-26 13:59:07,614 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:07,762 | INFO | app.services.chat_service | Private chat created: chat_id=3 user1_id=6 user2_id=7
+2026-08-26 13:59:07,764 | INFO | app.api.chat | Private chat accessed: user_id=6 target_user_id=7 chat_id=3
+2026-08-26 13:59:07,765 | INFO | app.main | POST /chats/private -> 200 (0.15s)
+2026-08-26 13:59:07,766 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:59:07,939 | INFO | app.services.message_service | Message sent: message_id=1 chat_id=3 sender_id=6 file_id=None reply_to_id=None
+2026-08-26 13:59:07,939 | INFO | app.api.message | Message sent: message_id=1 chat_id=3 user_id=6
+2026-08-26 13:59:07,940 | INFO | app.main | POST /messages/ -> 200 (0.172s)
+2026-08-26 13:59:07,942 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 200 OK"
+2026-08-26 13:59:08,120 | INFO | app.services.message_service | Message marked as read: message_id=1 user_id=7
+2026-08-26 13:59:08,122 | INFO | app.main | PUT /messages/1/read -> 200 (0.179s)
+2026-08-26 13:59:08,124 | INFO | httpx | HTTP Request: PUT http://testserver/messages/1/read "HTTP/1.1 200 OK"
+2026-08-26 13:59:08,400 | INFO | app.services.auth_service | User registered successfully: user_id=8 login=unread_user
+2026-08-26 13:59:08,401 | INFO | app.api.auth | User registered: user_id=8 username=Unread
+2026-08-26 13:59:08,402 | INFO | app.main | POST /auth/register -> 200 (0.27s)
+2026-08-26 13:59:08,404 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:08,420 | INFO | app.services.message_service | Unread counts loaded: user_id=8 chat_count=0
+2026-08-26 13:59:08,421 | INFO | app.main | GET /messages/unread/counts -> 200 (0.013s)
+2026-08-26 13:59:08,421 | INFO | httpx | HTTP Request: GET http://testserver/messages/unread/counts "HTTP/1.1 200 OK"
+2026-08-26 13:59:08,719 | INFO | app.services.auth_service | User registered successfully: user_id=9 login=svcuser
+2026-08-26 13:59:08,720 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 13:59:08,896 | INFO | app.services.auth_service | User registered successfully: user_id=10 login=ws_user
+2026-08-26 13:59:08,897 | INFO | app.api.auth | User registered: user_id=10 username=WS User
+2026-08-26 13:59:08,900 | INFO | app.main | POST /auth/register -> 200 (0.174s)
+2026-08-26 13:59:08,902 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:08,907 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=10 connections=1
+2026-08-26 13:59:08,907 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=10
+2026-08-26 13:59:08,999 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:59:09,001 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 13:59:09,052 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 code=1000
+2026-08-26 13:59:09,053 | INFO | app.websocket.chat_ws | User went offline: user_id=10
+2026-08-26 13:59:09,054 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 became_offline=True
+2026-08-26 13:59:09,146 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=offline members=0
+2026-08-26 13:59:09,321 | INFO | app.services.auth_service | User registered successfully: user_id=11 login=ws_user1
+2026-08-26 13:59:09,322 | INFO | app.api.auth | User registered: user_id=11 username=WS1
+2026-08-26 13:59:09,324 | INFO | app.main | POST /auth/register -> 200 (0.173s)
+2026-08-26 13:59:09,327 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:09,503 | INFO | app.services.auth_service | User registered successfully: user_id=12 login=ws_user2
+2026-08-26 13:59:09,504 | INFO | app.api.auth | User registered: user_id=12 username=WS2
+2026-08-26 13:59:09,505 | INFO | app.main | POST /auth/register -> 200 (0.174s)
+2026-08-26 13:59:09,507 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 13:59:09,621 | INFO | app.services.chat_service | Private chat created: chat_id=4 user1_id=11 user2_id=12
+2026-08-26 13:59:09,623 | INFO | app.api.chat | Private chat accessed: user_id=11 target_user_id=12 chat_id=4
+2026-08-26 13:59:09,625 | INFO | app.main | POST /chats/private -> 200 (0.116s)
+2026-08-26 13:59:09,627 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 13:59:09,640 | INFO | app.websocket.chat_ws | WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:59:09,640 | INFO | app.api.websocket_routes | Chat WebSocket connected: chat_id=4 user_id=11
+2026-08-26 13:59:09,742 | INFO | app.services.message_service | Message sent: message_id=2 chat_id=4 sender_id=11 file_id=None reply_to_id=None
+2026-08-26 13:59:09,743 | INFO | app.api.websocket_routes | Message sent via WebSocket: message_id=2 chat_id=4 user_id=11
+2026-08-26 13:59:09,753 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11 code=1000
+2026-08-26 13:59:09,753 | INFO | app.websocket.chat_ws | WebSocket disconnecting: chat_id=4
+2026-08-26 13:59:09,754 | INFO | app.websocket.chat_ws | Chat WebSocket connections cleared: chat_id=4
+2026-08-26 13:59:09,754 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11
+2026-08-26 13:59:09,755 | INFO | app.main | Application shutdown
+2026-08-26 14:00:21,386 | INFO | app.main | FastAPI application initialized
+2026-08-26 14:00:21,404 | INFO | app.main | API routers initialized
+2026-08-26 14:00:21,405 | INFO | app.main | Static files mounted
+2026-08-26 14:00:23,511 | INFO | app.main | Application startup
+2026-08-26 14:00:23,513 | INFO | app.main | Database tables initialized
+2026-08-26 14:00:23,693 | INFO | app.services.auth_service | User registered successfully: user_id=1 login=testuser
+2026-08-26 14:00:23,693 | INFO | app.api.auth | User registered: user_id=1 username=Test User
+2026-08-26 14:00:23,700 | INFO | app.main | POST /auth/register -> 200 (0.186s)
+2026-08-26 14:00:23,701 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:23,769 | INFO | app.services.auth_service | User authenticated successfully: user_id=1
+2026-08-26 14:00:23,769 | INFO | app.api.auth | User logged in: user_id=1 username=Test User
+2026-08-26 14:00:23,770 | INFO | app.main | POST /auth/login -> 200 (0.068s)
+2026-08-26 14:00:23,770 | INFO | httpx | HTTP Request: POST http://testserver/auth/login "HTTP/1.1 200 OK"
+2026-08-26 14:00:23,773 | INFO | app.main | GET /auth/me -> 200 (0.002s)
+2026-08-26 14:00:23,773 | INFO | httpx | HTTP Request: GET http://testserver/auth/me "HTTP/1.1 200 OK"
+2026-08-26 14:00:23,940 | INFO | app.services.auth_service | User registered successfully: user_id=2 login=dupuser
+2026-08-26 14:00:23,941 | INFO | app.api.auth | User registered: user_id=2 username=Dup User
+2026-08-26 14:00:23,943 | INFO | app.main | POST /auth/register -> 200 (0.167s)
+2026-08-26 14:00:23,946 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:23,953 | WARNING | app.services.auth_service | Registration failed: login already exists login=dupuser
+2026-08-26 14:00:23,953 | WARNING | app.api.auth | Registration failed: login=dupuser reason=Login already exists
+2026-08-26 14:00:23,955 | INFO | app.main | POST /auth/register -> 400 (0.006s)
+2026-08-26 14:00:23,956 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 400 Bad Request"
+2026-08-26 14:00:24,130 | INFO | app.services.auth_service | User registered successfully: user_id=3 login=chat_user1
+2026-08-26 14:00:24,130 | INFO | app.api.auth | User registered: user_id=3 username=User One
+2026-08-26 14:00:24,131 | INFO | app.main | POST /auth/register -> 200 (0.17s)
+2026-08-26 14:00:24,131 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:24,307 | INFO | app.services.auth_service | User registered successfully: user_id=4 login=chat_user2
+2026-08-26 14:00:24,308 | INFO | app.api.auth | User registered: user_id=4 username=User Two
+2026-08-26 14:00:24,310 | INFO | app.main | POST /auth/register -> 200 (0.179s)
+2026-08-26 14:00:24,313 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:24,452 | INFO | app.services.chat_service | Private chat created: chat_id=1 user1_id=3 user2_id=4
+2026-08-26 14:00:24,454 | INFO | app.api.chat | Private chat accessed: user_id=3 target_user_id=4 chat_id=1
+2026-08-26 14:00:24,456 | INFO | app.main | POST /chats/private -> 200 (0.141s)
+2026-08-26 14:00:24,457 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 14:00:24,466 | INFO | app.main | GET /chats/ -> 200 (0.008s)
+2026-08-26 14:00:24,466 | INFO | httpx | HTTP Request: GET http://testserver/chats/ "HTTP/1.1 200 OK"
+2026-08-26 14:00:24,623 | INFO | app.services.auth_service | User registered successfully: user_id=5 login=fav_user
+2026-08-26 14:00:24,624 | INFO | app.api.auth | User registered: user_id=5 username=Fav User
+2026-08-26 14:00:24,626 | INFO | app.main | POST /auth/register -> 200 (0.157s)
+2026-08-26 14:00:24,627 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:24,778 | INFO | app.services.chat_service | Favorite chat created: chat_id=2 user_id=5
+2026-08-26 14:00:24,780 | INFO | app.api.chat | Favorite chat accessed: user_id=5 chat_id=2
+2026-08-26 14:00:24,780 | INFO | app.main | POST /chats/favorite -> 200 (0.151s)
+2026-08-26 14:00:24,781 | INFO | httpx | HTTP Request: POST http://testserver/chats/favorite "HTTP/1.1 200 OK"
+2026-08-26 14:00:24,965 | INFO | app.services.auth_service | User registered successfully: user_id=6 login=msg_user1
+2026-08-26 14:00:24,966 | INFO | app.api.auth | User registered: user_id=6 username=Msg One
+2026-08-26 14:00:24,968 | INFO | app.main | POST /auth/register -> 200 (0.186s)
+2026-08-26 14:00:24,971 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:25,174 | INFO | app.services.auth_service | User registered successfully: user_id=7 login=msg_user2
+2026-08-26 14:00:25,174 | INFO | app.api.auth | User registered: user_id=7 username=Msg Two
+2026-08-26 14:00:25,177 | INFO | app.main | POST /auth/register -> 200 (0.203s)
+2026-08-26 14:00:25,179 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:25,317 | INFO | app.services.chat_service | Private chat created: chat_id=3 user1_id=6 user2_id=7
+2026-08-26 14:00:25,318 | INFO | app.api.chat | Private chat accessed: user_id=6 target_user_id=7 chat_id=3
+2026-08-26 14:00:25,319 | INFO | app.main | POST /chats/private -> 200 (0.137s)
+2026-08-26 14:00:25,319 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 14:00:25,449 | INFO | app.services.message_service | Message sent: message_id=1 chat_id=3 sender_id=6 file_id=None reply_to_id=None
+2026-08-26 14:00:25,450 | INFO | app.api.message | Message sent: message_id=1 chat_id=3 user_id=6
+2026-08-26 14:00:25,450 | INFO | app.main | POST /messages/ -> 200 (0.13s)
+2026-08-26 14:00:25,451 | INFO | httpx | HTTP Request: POST http://testserver/messages/ "HTTP/1.1 200 OK"
+2026-08-26 14:00:25,591 | INFO | app.services.message_service | Message marked as read: message_id=1 user_id=7
+2026-08-26 14:00:25,594 | INFO | app.main | PUT /messages/1/read -> 200 (0.142s)
+2026-08-26 14:00:25,596 | INFO | httpx | HTTP Request: PUT http://testserver/messages/1/read "HTTP/1.1 200 OK"
+2026-08-26 14:00:25,790 | INFO | app.services.auth_service | User registered successfully: user_id=8 login=unread_user
+2026-08-26 14:00:25,791 | INFO | app.api.auth | User registered: user_id=8 username=Unread
+2026-08-26 14:00:25,793 | INFO | app.main | POST /auth/register -> 200 (0.189s)
+2026-08-26 14:00:25,796 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:25,809 | INFO | app.services.message_service | Unread counts loaded: user_id=8 chat_count=0
+2026-08-26 14:00:25,810 | INFO | app.main | GET /messages/unread/counts -> 200 (0.012s)
+2026-08-26 14:00:25,811 | INFO | httpx | HTTP Request: GET http://testserver/messages/unread/counts "HTTP/1.1 200 OK"
+2026-08-26 14:00:26,132 | INFO | app.services.auth_service | User registered successfully: user_id=9 login=svcuser
+2026-08-26 14:00:26,134 | WARNING | app.services.auth_service | Registration failed: login already exists login=svcuser
+2026-08-26 14:00:26,324 | INFO | app.services.auth_service | User registered successfully: user_id=10 login=ws_user
+2026-08-26 14:00:26,324 | INFO | app.api.auth | User registered: user_id=10 username=WS User
+2026-08-26 14:00:26,326 | INFO | app.main | POST /auth/register -> 200 (0.19s)
+2026-08-26 14:00:26,328 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:26,337 | INFO | app.websocket.chat_ws | Notification WebSocket connected: user_id=10 connections=1
+2026-08-26 14:00:26,337 | INFO | app.api.websocket_routes | Notification WebSocket connected: user_id=10
+2026-08-26 14:00:26,461 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 14:00:26,464 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=online members=0
+2026-08-26 14:00:26,514 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 code=1000
+2026-08-26 14:00:26,515 | INFO | app.websocket.chat_ws | User went offline: user_id=10
+2026-08-26 14:00:26,515 | INFO | app.api.websocket_routes | Notification WebSocket disconnected: user_id=10 became_offline=True
+2026-08-26 14:00:26,644 | INFO | app.websocket.chat_ws | Broadcasting user status: user_id=10 status=offline members=0
+2026-08-26 14:00:26,873 | INFO | app.services.auth_service | User registered successfully: user_id=11 login=ws_user1
+2026-08-26 14:00:26,874 | INFO | app.api.auth | User registered: user_id=11 username=WS1
+2026-08-26 14:00:26,876 | INFO | app.main | POST /auth/register -> 200 (0.225s)
+2026-08-26 14:00:26,876 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:27,098 | INFO | app.services.auth_service | User registered successfully: user_id=12 login=ws_user2
+2026-08-26 14:00:27,099 | INFO | app.api.auth | User registered: user_id=12 username=WS2
+2026-08-26 14:00:27,101 | INFO | app.main | POST /auth/register -> 200 (0.224s)
+2026-08-26 14:00:27,103 | INFO | httpx | HTTP Request: POST http://testserver/auth/register "HTTP/1.1 200 OK"
+2026-08-26 14:00:27,261 | INFO | app.services.chat_service | Private chat created: chat_id=4 user1_id=11 user2_id=12
+2026-08-26 14:00:27,263 | INFO | app.api.chat | Private chat accessed: user_id=11 target_user_id=12 chat_id=4
+2026-08-26 14:00:27,264 | INFO | app.main | POST /chats/private -> 200 (0.157s)
+2026-08-26 14:00:27,265 | INFO | httpx | HTTP Request: POST http://testserver/chats/private "HTTP/1.1 200 OK"
+2026-08-26 14:00:27,274 | INFO | app.websocket.chat_ws | WebSocket connected: chat_id=4 user_id=11
+2026-08-26 14:00:27,275 | INFO | app.api.websocket_routes | Chat WebSocket connected: chat_id=4 user_id=11
+2026-08-26 14:00:27,417 | INFO | app.services.message_service | Message sent: message_id=2 chat_id=4 sender_id=11 file_id=None reply_to_id=None
+2026-08-26 14:00:27,418 | INFO | app.api.websocket_routes | Message sent via WebSocket: message_id=2 chat_id=4 user_id=11
+2026-08-26 14:00:27,425 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11 code=1000
+2026-08-26 14:00:27,425 | INFO | app.websocket.chat_ws | WebSocket disconnecting: chat_id=4
+2026-08-26 14:00:27,425 | INFO | app.websocket.chat_ws | Chat WebSocket connections cleared: chat_id=4
+2026-08-26 14:00:27,425 | INFO | app.api.websocket_routes | Chat WebSocket disconnected: chat_id=4 user_id=11
+2026-08-26 14:00:27,426 | INFO | app.main | Application shutdown
